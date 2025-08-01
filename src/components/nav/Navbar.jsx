@@ -7,7 +7,7 @@ function Navbar() {
         <div className="max-w-7xl mx-auto px-0 py-0 flex items-center justify-evenly">
           <div className="flex -ml-96 flex-row justify-center text-xl font-bold">
             <img src={cubelogo} className="h-20 w-20"></img>
-            <h1 className="mt-7 -ml-4">Blocks</h1>
+            <h1 className="mt-7 -ml-4">Web Blocks</h1>
           </div>
           <div className="hidden md:flex space-x-6 font-bold">
             <Link to="/" className="text-gray-800  hover:text-blue-600">

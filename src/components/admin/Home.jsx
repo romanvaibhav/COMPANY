@@ -34,7 +34,7 @@ function Home() {
           <h1 className=" flex justify-center font-bold text-3xl">
             Why Choose -
             <p>
-              <span className="text-blue-600">BLOCKS</span> ?
+              <span className="text-blue-600">WEB BLOCKS</span> ?
             </p>
           </h1>
           <div className="flex justify-center items-center py-8">
