@@ -1,4 +1,4 @@
-import cubelogo from "../../assets/Three_Interlocking_Cubes.png";
+import cubelogo from "../../assets/Three_Interlocking_Cubes copy.png";
 import { Link, Outlet } from "react-router-dom";
 function Navbar() {
   return (
