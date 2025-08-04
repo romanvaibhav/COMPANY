@@ -1,5 +1,10 @@
 import moving from "../../assets/giphy.gif";
-
+import productEngee from "../../assets/product.png";
+import saas from "../../assets/01_title_SaaS-explained_WixqlhJ_1-3.png";
+import cloudComp from "../../assets/DevOps-and-Cloud-The-Match-that-Drives-Todays-Businesses.jpg";
+import genAI from "../../assets/AI-Software-Development.png.webp";
+import blockchain from "../../assets/87470836-blockchain-technology-colorful-line-round-vector-illustration-on-white-background.jpg";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
@@ -31,12 +36,10 @@ function Home() {
 
       <div className=" mt-5">
         <div>
-          <h1 className=" flex justify-center font-bold text-3xl">
-            Why Choose -
-            <p>
-              <span className="text-blue-600">WEB_BLOCKS</span> ?
-            </p>
+          <h1 className="flex justify-center font-bold text-3xl">
+            Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
+
           <div className="flex justify-center items-center py-8">
             <div className="bg-gray-200 border border-gray-400 rounded-xl w-[900px] p-6 text-center">
               <p className="text-lg font-medium text-gray-800 leading-relaxed gap-5">
@@ -92,6 +95,142 @@ function Home() {
               <p className="text-sm text-center mb-5">
                 We don’t just build — we evolve, disrupt, and deliver.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div className="flex flex-row mt-8">
+          <div className="relative w-[713px] h-60 ml-8 mt-10 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+            {/* Background image div */}
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${productEngee})`,
+                backgroundSize: "60% 80%",
+              }}
+            ></div>
+
+            {/* Gradient overlay div */}
+            <div className="absolute inset-0  bg-gradient-to-b from-blue-200 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-bold mt-30">
+                Product Engineering
+              </h1>
+              <p className="text-gray-950 mt-4">
+                Next-gen product engineering with our powerful Product
+                Engineering services
+              </p>
+              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+                Learn More
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative w-[713px] h-60 ml-8 mt-10 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+            {/* Background image div */}
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${saas})`,
+                backgroundSize: "60% 80%",
+              }}
+            ></div>
+
+            {/* Gradient overlay div */}
+            <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-bold mt-30">
+                SAAS App Development
+              </h1>
+              <p className="text-gray-950 mt-4">
+                Transform your business with our exceptional SaaS Application
+                Development
+              </p>
+              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+                Learn More
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row">
+          <div className="relative w-[464px] h-60 ml-8 mt-0 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+            {/* Background image div */}
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${cloudComp})`,
+                backgroundSize: "60% 80%",
+              }}
+            ></div>
+
+            {/* Gradient overlay div */}
+            <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-bold mt-30">
+                Cloud & DevOps Solutions
+              </h1>
+              <p className="text-gray-950 mt-4">
+                Empower businesses with our comprehensive Cloud & DevOps
+                services
+              </p>
+              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+                Learn More
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative w-[464px] h-60 ml-8 mt-0 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+            {/* Background image div */}
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${genAI})`,
+                backgroundSize: "100% 100%",
+              }}
+            ></div>
+
+            {/* Gradient overlay div */}
+            <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-bold mt-30">
+                Generative AI development
+              </h1>
+              <p className="text-gray-950 mt-4">
+                Let our expertise in Generative AI propel your ideas into
+                reality
+              </p>
+              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+                Learn More
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative w-[464px] h-60 ml-8 mt-0 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+            {/* Background image div */}
+            <div
+              className="absolute inset-0 bg-center bg-no-repeat"
+              style={{
+                backgroundImage: `url(${blockchain})`,
+                backgroundSize: "60% 80%",
+              }}
+            ></div>
+
+            {/* Gradient overlay div */}
+            <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-bold mt-30">
+                Blockchain Intergration
+              </h1>
+              <p className="text-gray-950 mt-4">
+                Unlock decentralized potential with our end-to-end blockchain
+                services
+              </p>
+              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+                Learn More
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
+              </Link>
             </div>
           </div>
         </div>
