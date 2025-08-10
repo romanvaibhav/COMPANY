@@ -5,6 +5,9 @@ import cloudComp from "../../assets/DevOps-and-Cloud-The-Match-that-Drives-Today
 import genAI from "../../assets/AI-Software-Development.png.webp";
 import blockchain from "../../assets/87470836-blockchain-technology-colorful-line-round-vector-illustration-on-white-background.jpg";
 import { Link } from "react-router-dom";
+import SnippitTech from "../snippits/SnippitTech";
+import SnippitWhyWebBlocks from "../snippits/snippitWhyWebBlocks";
+import SnippitWhatWeValue from "../snippits/SnippitWhatWeValue";
 function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
@@ -40,22 +43,7 @@ function Home() {
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="flex justify-center items-center py-8">
-            <div className="bg-gray-200 border border-gray-400 rounded-xl w-[900px] p-6 text-center">
-              <p className="text-lg font-medium text-gray-800 leading-relaxed gap-5">
-                At Web Blocks, we build future-ready solutions that accelerate
-                your growth. <br />
-                From software engineering and cloud transformation to AI-driven
-                insights <br />
-                and blockchain integration, our team of experts ensures every
-                project is <br />
-                delivered with excellence, speed, and impact — all under one
-                roof.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-10 w-full flex flex-row justify-center gap-12">
+          <div className="mt-10 w-[85rem] ml-20 flex flex-row justify-center gap-12">
             <div className="border border-gray-300 rounded-2xl h-80 w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
               <p className="font-semibold text-center text-2xl ">
                 Unified Tech Expertise
@@ -99,10 +87,11 @@ function Home() {
           </div>
         </div>
       </div>
+      <SnippitWhyWebBlocks />
 
       <div>
-        <div className="flex flex-row mt-8">
-          <div className="relative w-[713px] h-60 ml-8 mt-10 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+        <div className="flex flex-row mt-8 w-[85rem] ml-15">
+          <div className="relative w-[713px] h-60 ml-8 mt-10 mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -155,7 +144,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="flex flex-row">
+        <div className="flex flex-row w-[85rem] ml-15">
           <div className="relative w-[464px] h-60 ml-8 mt-0 mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
@@ -235,6 +224,8 @@ function Home() {
           </div>
         </div>
       </div>
+      <SnippitTech />
+      <SnippitWhatWeValue />
     </div>
   );
 }
