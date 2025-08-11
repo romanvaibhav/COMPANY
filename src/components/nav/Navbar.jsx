@@ -13,9 +13,7 @@ function Navbar() {
             <Link to="/" className="text-gray-800  hover:text-blue-600">
               Home
             </Link>
-            <Link className="text-gray-800  hover:text-blue-600">
-              Our Service
-            </Link>
+            <Link className="text-gray-800  hover:text-blue-600">Service</Link>
             <a href="#" className="text-gray-800 hover:text-blue-600">
               Works
             </a>
@@ -59,7 +57,7 @@ function Navbar() {
               Home
             </a>
             <a href="#" className="block text-gray-700 hover:text-blue-600">
-              Our Service
+              Service
             </a>
             <a href="#" className="block text-gray-700 hover:text-blue-600">
               Works

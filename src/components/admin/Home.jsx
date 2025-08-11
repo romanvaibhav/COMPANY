@@ -31,8 +31,16 @@ function Home() {
               every stage of your digital journey in-house.
             </p>
           </div>
-          <button className="border mt-6 px-4 py-2 bg-gray-200 font-bold text-black rounded-2xl">
-            Lets Connect
+          <button
+            onClick={() =>
+              window.open(
+                "https://calendly.com/vaibhavroman2022/30min",
+                "_blank"
+              )
+            }
+            className="border mt-6 px-4 py-2 bg-gray-200 font-bold text-black rounded-2xl hover:bg-blue-700 hover:text-white"
+          >
+            Let's Connect
           </button>
         </div>
       </div>
