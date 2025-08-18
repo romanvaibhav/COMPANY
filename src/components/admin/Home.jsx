@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
       <div
-        className="h-[550px] w-full border border-black"
+        className="sm:h-[500px] md:h-[550px]  w-full border border-black"
         style={{
           backgroundImage: `url(${moving})`,
           backgroundSize: "100% 100%",
@@ -20,7 +20,7 @@ function Home() {
         }}
       >
         <div className="flex flex-col justify-center text-white items-start h-full w-full px-10">
-          <div className="-mt-10">
+          <div className="-mt-10 md:mt-5">
             <p className="text-white text-4xl font-bold">
               Build Bold <br /> Lead the Future
             </p>

@@ -1,14 +1,21 @@
 import cubelogo from "../../assets/Three_Interlocking_Cubes copy.png";
 import { Link, Outlet } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
+
 function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <nav className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-0 py-0 flex items-center justify-evenly">
-          <div className="flex -ml-96 flex-row justify-center text-xl font-bold">
-            <img src={cubelogo} className="h-20 w-20"></img>
-            <h1 className="mt-7 -ml-4">Web Blocks</h1>
+        <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+          {/* Left: Logo + Name */}
+          <div className="flex items-center gap-x-2 text-xl font-bold">
+            <img src={cubelogo} className="h-16 w-16" alt="Company Logo" />
+            <h1 className="text-lg sm:text-xl">Web Blocks</h1>
           </div>
+
           <div className="hidden md:flex space-x-6 font-bold">
             <Link to="/" className="text-gray-800  hover:text-blue-600">
               Home
@@ -21,11 +28,16 @@ function Navbar() {
               Our Story
             </a>
           </div>
-          <button className="-mr-96 border bg-blue-600 text-white px-4 py-1 rounded-2xl hover:bg-blue-700 transition">
+          <button className=" border hidden md:flex bg-blue-600 text-white px-4 py-1 rounded-2xl hover:bg-blue-700 transition">
             Contact Us
           </button>
-
-          <button className="md:hidden text-gray-700 focus:outline-none">
+          <button
+            className="md:hidden text-gray-700 text-2xl"
+            onClick={() => setOpen(!open)}
+          >
+            <FaBars />
+          </button>
+          {/* <button className="md:hidden text-gray-700 focus:outline-none">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -48,11 +60,17 @@ function Navbar() {
                 />
               )}
             </svg>
-          </button>
+          </button> */}
         </div>
         {/* Mobile menu */}
         {open && (
-          <div className="md:hidden px-4 pb-4 space-y-2 bg-white">
+          <div className="fixed top-0 right-0 h-full w-38 bg-white shadow-lg p-6 space-y-4 md:hidden z-50">
+            <button
+              className="self-end text-2xl text-gray-700"
+              onClick={() => setOpen(false)}
+            >
+              <FaTimes />
+            </button>
             <a href="#" className="block text-gray-700 hover:text-blue-600">
               Home
             </a>
@@ -67,7 +85,6 @@ function Navbar() {
             </a>
           </div>
         )}
-        <Outlet />
       </nav>
     </div>
   );
