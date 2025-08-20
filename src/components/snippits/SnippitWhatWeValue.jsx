@@ -3,9 +3,9 @@ import Ethics from "../../assets/ethics-honesty-integrity-respect-gears-260nw-25
 import connection from "../../assets/Rectangle 31-CaxH85gR.webp";
 export default function SnippitWhatWeValue() {
   return (
-    <div className="w-[85rem] ml-20 mt-10">
+    <div className=" w-85 ml-5 lg:w-[85rem] lg:ml-20 mt-10">
       <div>
-        <h1 className="text-4xl font-bold flex justify-center">
+        <h1 className="lg:text-4xl text-2xl font-bold flex justify-center">
           What we Value
         </h1>
       </div>
@@ -13,13 +13,15 @@ export default function SnippitWhatWeValue() {
         <div className="flex flex-row ">
           <div>
             <img
-              className="h-60 w-[600px] rounded-md shadow-gray-400  shadow-md"
+              className="lg:h-60 lg:w-[600px] h-50 w-190 rounded-md shadow-gray-400  shadow-md"
               src={innovation}
               alt=""
             />
           </div>
-          <div className="ml-10 mt-20">
-            <h1 className="font-semibold text-2xl">Innovation & Excellence</h1>
+          <div className=" lg:ml-10 ml-5 lg:mt-20">
+            <h1 className="font-semibold text-base lg:text-2xl">
+              Innovation & Excellence
+            </h1>
             <p>
               We embrace cutting-edge technologies and uphold the highest
               standards to deliver future-ready, high-performing digital
@@ -27,32 +29,34 @@ export default function SnippitWhatWeValue() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row mt-5 ml-5">
+        <div className="flex flex-row mt-5 lg:ml-5">
           <div>
             <img
-              className="h-60 w-[700px] rounded-md shadow-gray-400  shadow-md"
+              className="h-50 w-190 lg:h-60 lg:w-[700px] rounded-md shadow-gray-400  shadow-md"
               src={Ethics}
               alt=""
             />
           </div>
-          <div className="ml-10 mt-20">
-            <h1 className="font-semibold text-2xl">Integrity & Trust</h1>
+          <div className="lg:ml-10 ml-5 lg:mt-20">
+            <h1 className="font-semibold text-base lg:text-2xl">
+              Integrity & Trust
+            </h1>
             <p>
               We build strong relationships through transparency,
               accountability, and a security-first approach in everything we do.
             </p>
           </div>
         </div>
-        <div className="flex flex-row mt-5 ml-10">
+        <div className="flex flex-row mt-5 lg:ml-10">
           <div>
             <img
-              className="h-60 w-[800px] rounded-md shadow-gray-400  shadow-md"
+              className="h-50 w-190 lg:h-60 lg:w-[800px] rounded-md shadow-gray-400  shadow-md"
               src={connection}
               alt=""
             />
           </div>
-          <div className="ml-10 mt-20">
-            <h1 className="font-semibold text-2xl">
+          <div className="lg:ml-10 ml-5 lg:mt-20">
+            <h1 className="font-semibold text-base lg:text-2xl">
               Collaboration & Client Focus
             </h1>
             <p>
