@@ -63,7 +63,7 @@ function Home() {
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="mt-10 w-[85rem] ml-9 lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-12">
+          <div className="mt-10 w-[85rem] ml-8 lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-12">
             <div className=" flex flex-row gap-4">
               <div className="border border-gray-300 rounded-2xl h-60 w-40 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
@@ -117,7 +117,7 @@ function Home() {
       <SnippitWhyWebBlocks />
 
       <div className="w-85">
-        <div className="flex justify-center ml-9 flex-col w-85 lg:flex-row mt-8 lg:w-[85rem] lg:ml-15">
+        <div className="flex justify-center ml-8 flex-col w-85 lg:flex-row mt-8 lg:w-[85rem] lg:ml-15">
           <div className="relative w-85 h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
@@ -171,7 +171,7 @@ function Home() {
           </div>
         </div>
 
-        <div className=" flex justify-center ml-9 flex-col w-85 lg:flex-row lg:w-[85rem] lg:ml-15">
+        <div className=" flex justify-center ml-8 flex-col w-85 lg:flex-row lg:w-[85rem] lg:ml-15">
           <div className="  mt-4 w-85 h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div

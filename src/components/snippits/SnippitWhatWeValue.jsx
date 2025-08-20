@@ -3,7 +3,7 @@ import Ethics from "../../assets/ethics-honesty-integrity-respect-gears-260nw-25
 import connection from "../../assets/Rectangle 31-CaxH85gR.webp";
 export default function SnippitWhatWeValue() {
   return (
-    <div className=" w-95 ml-7 lg:w-[85rem] lg:ml-20 mt-10">
+    <div className=" w-95 ml-5 lg:w-[85rem] lg:ml-20 mt-10">
       <div>
         <h1 className="lg:text-4xl text-2xl font-bold flex justify-center">
           What we Value
