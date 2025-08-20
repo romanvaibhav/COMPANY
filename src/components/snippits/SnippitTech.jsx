@@ -138,7 +138,7 @@ export default function SnippitTech() {
   };
 
   return (
-    <div className="bg-white p-6 w-85 ml-6 mt-8 lg:ml-20 lg:w-[85rem] rounded-lg  h-full">
+    <div className="bg-white p-6 w-85 ml-10 mt-8 lg:ml-20 lg:w-[85rem] rounded-lg  h-full">
       <div>
         <h1 className="text-2xl lg:text-4xl font-bold">
           Technologies and Platforms We Work With
