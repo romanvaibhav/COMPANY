@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import SnippitTech from "../snippits/SnippitTech";
 import SnippitWhyWebBlocks from "../snippits/snippitWhyWebBlocks";
 import SnippitWhatWeValue from "../snippits/SnippitWhatWeValue";
+import Engagement from "../snippits/EngagementModel";
+import Howwe from "../snippits/Howwe";
 function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
@@ -63,9 +65,9 @@ function Home() {
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="mt-10 w-[85rem] ml-8 lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-12">
-            <div className=" flex flex-row gap-4">
-              <div className="border border-gray-300 rounded-2xl h-60 w-40 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
+          <div className="mt-10 w-[85rem] ml-[8vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-12">
+            <div className=" flex flex-row gap-[4vw]">
+              <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Unified Tech Expertise
                 </p>
@@ -73,7 +75,7 @@ function Home() {
                   One team. All major technologies. End-to-end execution
                 </p>
               </div>
-              <div className="border border-gray-300 h-60 w-40 lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
+              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-[4vw] bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Custom-Built for Your Vision
                 </p>
@@ -82,8 +84,8 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className=" flex w-85 mt-4 mb-4 lg:mt-0 lg:mb-0 justify-center">
-              <div className=" border border-gray-300 h-60 w-40 lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
+            <div className=" flex justify-center w-[83vw] mt-4 mb-4 lg:mt-0 lg:mb-0">
+              <div className=" border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Scalable. Reliable. Ready for Tomorrow
                 </p>
@@ -93,8 +95,8 @@ function Home() {
               </div>
             </div>
 
-            <div className=" flex flex-row gap-4">
-              <div className="border border-gray-300 h-60 w-40 lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
+            <div className=" flex flex-row gap-[4vw]">
+              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Security at Every Layer
                 </p>
@@ -102,7 +104,7 @@ function Home() {
                   From code to cloud — your data, protected.
                 </p>
               </div>
-              <div className="border border-gray-300 h-60 w-40 lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
+              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl">
                   Innovation That Powers Results
                 </p>
@@ -116,9 +118,9 @@ function Home() {
       </div>
       <SnippitWhyWebBlocks />
 
-      <div className="w-85">
-        <div className="flex justify-center ml-8 flex-col w-85 lg:flex-row mt-8 lg:w-[85rem] lg:ml-15">
-          <div className="relative w-85 h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
+      <div className="w-[85vw]">
+        <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-8 lg:w-[85rem] lg:ml-15">
+          <div className="relative w-[85vw] h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -144,7 +146,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="relative mt-4 w-85 h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className="relative w-[85vw] mt-4 h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -155,7 +157,7 @@ function Home() {
             ></div>
 
             {/* Gradient overlay div */}
-            <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
+            <div className="absolute w-[85vw] inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
               <h1 className="text-black font-semibold mt-20 lg:font-bold  lg:mt-30">
                 SAAS App Development
               </h1>
@@ -171,8 +173,8 @@ function Home() {
           </div>
         </div>
 
-        <div className=" flex justify-center ml-8 flex-col w-85 lg:flex-row lg:w-[85rem] lg:ml-15">
-          <div className="  mt-4 w-85 h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+        <div className=" flex justify-center ml-[8vw] flex-col w-[85vw] lg:flex-row lg:w-[85rem] lg:ml-15">
+          <div className="  mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -198,7 +200,7 @@ function Home() {
             </div>
           </div>
 
-          <div className=" mt-4 w-85 h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className=" mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -224,7 +226,7 @@ function Home() {
             </div>
           </div>
 
-          <div className=" mt-4 w-85 h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className=" mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -252,7 +254,8 @@ function Home() {
         </div>
       </div>
       <SnippitTech />
-      <SnippitWhatWeValue />
+      <Engagement />
+      <Howwe />
     </div>
   );
 }

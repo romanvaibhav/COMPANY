@@ -1,3 +1,9 @@
+import Howwe from "../snippits/Howwe";
+
 export default function Service() {
-  return <div>Hello Everyone</div>;
+  return (
+    <div>
+      <Howwe />
+    </div>
+  );
 }

@@ -138,7 +138,7 @@ export default function SnippitTech() {
   };
 
   return (
-    <div className="bg-white p-6 w-85 ml-9 mt-8 lg:ml-20 lg:w-[85rem] rounded-lg  h-full">
+    <div className="bg-white p-6 w-[90vw] ml-[8vw] mt-8 lg:ml-20 lg:w-[85rem] rounded-lg  h-full">
       <div>
         <h1 className="text-2xl lg:text-4xl font-bold">
           Technologies and Platforms We Work With
@@ -162,12 +162,12 @@ export default function SnippitTech() {
         </p>
       </div>
 
-      <div className="flex flex-row text-sm lg:gap-7 ml-[-35px] mt-12">
+      <div className="flex w-[90vw] flex-row text-sm lg:ml-[5px] lg:gap-7 ml-[-10vw] mt-[5vw]">
         {Object.keys(techStack).map((category) => (
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`font-semibold p-2 w-20 lg:w-40 transition-colors duration-200 border-2
+            className={`font-semibold p-2 w-[20vw] lg:w-40 transition-colors duration-200 border-2
     ${
       selectedCategory === category
         ? "text-black border-b-2 border-gray-500"
@@ -185,7 +185,7 @@ export default function SnippitTech() {
           {techStack[selectedCategory].map((tech) => (
             <div
               key={tech.name}
-              className="flex flex-col justify-center w-30  lg:w-[200px] items-center  p-2 rounded bg-gray-100 h-35"
+              className="flex flex-col justify-center w-[35vw]  lg:w-[200px] items-center  p-2 rounded bg-gray-100 h-[20vh]"
             >
               <div>{tech.icon}</div>
               <span className="mt-4">{tech.name}</span>

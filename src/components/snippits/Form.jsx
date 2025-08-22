@@ -4,17 +4,17 @@ function ContactForm() {
   return (
     <div className="w-full flex justify-center items-center pt-14 pb-14">
       <div
-        className="flex justify-start w-[1000px] rounded-md items-center h-[500px] bg-cover bg-center px-8"
+        className="flex justify-start w-[80vw] rounded-md items-center h-[500px] bg-cover bg-center px-8"
         style={{ backgroundImage: `url(${bgimage})` }} // Replace with your image
       >
-        <div className="bg-white/10 backdrop-blur-md p-8 h-85 w-70 rounded-2xl shadow-xl lg:w-full  lg:max-w-2xl ml-4 lg:ml-12">
+        <div className="bg-white/10 backdrop-blur-md p-8  h-95 w-70 rounded-2xl shadow-xl   lg:w-[45vw] ml-0 lg:ml-[15vw]">
           <h2 className="text-center text-base lg:font-bold lg:text-3xl mt-[-10px] mb-4 lg:mb-6 text-white">
             Get into the Conversation
           </h2>
 
           <form className="space-y-6">
             {/* First + Last Name */}
-            <div className="grid grid-cols-2 lg:grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
               <input
                 type="text"
                 placeholder="First Name"
@@ -28,7 +28,7 @@ function ContactForm() {
             </div>
 
             {/* Email + Phone */}
-            <div className="grid grid-cols-2 lg:grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
               <input
                 type="email"
                 placeholder="Email"
@@ -54,7 +54,7 @@ function ContactForm() {
             <div className="text-center">
               <button
                 type="submit"
-                className="lg:w-full px-2 py-1  lg:px-6 lg:py-3 bg-black/70 border border-white rounded-lg text-white font-medium hover:bg-blue-600 transition  cursor-pointer"
+                className="lg:w-full px-2 py-1  lg:px-6 lg:py-3 bg-black/70 border text- border-white rounded-lg text-white font-medium hover:bg-gradient-to-b from-black to-teal-900 transition  cursor-pointer"
               >
                 Send Message
               </button>
