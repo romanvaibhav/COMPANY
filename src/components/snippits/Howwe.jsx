@@ -7,7 +7,7 @@ import frame5 from "../../assets/frame_1321317742-CFmQVlbd.webp";
 
 function Howwe() {
   return (
-    <div className="relative w-[100vw] h-[70vh] bg-black overflow-hidden">
+    <div className="relative lg:w-[100vw] lg:h-[70vh] h-[55vh] bg-black overflow-hidden">
       {/* <!-- Glowing moving background -->
       <div className=""></div>
       <div className=""></div>
@@ -18,16 +18,16 @@ function Howwe() {
 
       <div className="flex flex-row justify-between">
         <div className="ml-[5vw]">
-          <div className="mt-[8vh] ">
+          <div className="lg:mt-[8vh] mt-5 ">
             <h1 className="text-white font-bold tracking-[0.1em] text-2xl">
               How We
             </h1>
-            <h1 className="font-bold tracking-[0.2em] text-5xl text-white/90 animate-fade-text">
+            <h1 className="font-bold tracking-[0.2em] text-3xl lg:text-5xl text-white/90 animate-fade-text">
               WEB BLOCKS
             </h1>
           </div>
           <div className="mt-[7vh] ">
-            <p className="w-[35vw]  font-semibold tracking-[0.1em] text-2xl text-white">
+            <p className="w-[35vw]  font-semibold tracking-[0.1em] text lg:text-2xl text-white">
               Reach out to us if you want to talk Product Development!
             </p>
             <p className="font flex tracking-[0.1em] items-center gap-2 text-1xl text-white mt-[4vh]">
@@ -36,7 +36,7 @@ function Howwe() {
             <p className="font tracking-[0.1em] flex items-center text-1xl gap-2 text-white mt-[1vh]">
               <FaPhone className="text-gray-300" /> +91 7385171681
             </p>
-            <button className="relative text-white group flex text-2xl mt-[4vh] items-center gap-2">
+            <button className="relative text-white group flex  lg:text-2xl mt-[4vh] items-center gap-2">
               <span className="relative">
                 Book a Call with our CEO
                 {/* Underline */}
@@ -50,23 +50,43 @@ function Howwe() {
             </button>
           </div>
         </div>
-        <div className="mt-[15vh] mr-[10vw] w-[20vw] h-[40vh] bg-black flex  border-blue-400 justify-center items-center">
+        <div className="lg:mt-[15vh] lg:mr-[10vw] lg:w-[20vw] lg:h-[40vh] mt-40 w-60 h-40 bg-black flex  border-blue-400 justify-center items-center">
           {/* Scrollable container with hidden scrollbar */}
-          <div className="w-[19vw] h-[43vh] overflow-y-auto space-y-8 hide-scrollbar ">
-            <div className="w-full h-[40vh] border-4  bg-gray-400 rounded-2xl">
-              <img className="w-full h-[2]rounded-2xl" src={frame1} alt="" />
+          <div className="lg:w-[19vw] lg:h-[43vh] w-50 h-40 overflow-y-auto space-y-8 hide-scrollbar ">
+            <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
+              <img
+                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                src={frame1}
+                alt=""
+              />
             </div>
-            <div className="w-full h-[40vh] border-4  bg-gray-400 rounded-2xl">
-              <img className="w-full h-[2]rounded-2xl" src={frame2} alt="" />
+            <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
+              <img
+                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                src={frame2}
+                alt=""
+              />
             </div>
-            <div className="w-full h-[40vh] border-4  bg-gray-400 rounded-2xl">
-              <img className="w-full h-[2]rounded-2xl" src={frame3} alt="" />
+            <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
+              <img
+                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                src={frame3}
+                alt=""
+              />
             </div>
-            <div className="w-full h-[40vh] border-4  bg-gray-400 rounded-2xl">
-              <img className="w-full h-[2]rounded-2xl" src={frame4} alt="" />
+            <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
+              <img
+                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                src={frame4}
+                alt=""
+              />
             </div>
-            <div className="w-full h-[40vh] border-4  bg-gray-400 rounded-2xl">
-              <img className="w-full h-[2]rounded-2xl" src={frame5} alt="" />
+            <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
+              <img
+                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                src={frame5}
+                alt=""
+              />
             </div>
           </div>
         </div>
