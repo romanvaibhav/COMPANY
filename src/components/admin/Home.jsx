@@ -23,11 +23,11 @@ function Home() {
       >
         <div className="flex flex-col justify-center text-white items-start h-full w-full px-10">
           <div className=" md:mt-5 pb-4">
-            <p className="text-white text-2xl mt-5 lg:text-4xl font-bold sm:mt-20">
+            <p className="text-white text-2xl mt-5 lg:text-3xl font-bold sm:mt-20">
               Build Bold <br /> Lead the Future
             </p>
 
-            <p className="mt-6 text-base sm:text-3xl md:text-xl lg:text-2xl text-gray-200">
+            <p className="mt-6 text sm:text-3xl md:text-xl lg:text-xl text-gray-200">
               Shape the future with us. We deliver seamless digital solutions —
               <br />
               from idea to launch, with security and scale built in. We handle
@@ -45,9 +45,8 @@ function Home() {
               className="
     border 
     text-sm px-3 py-1            /* Mobile (default) */
-    sm:text-lg sm:px-4 sm:py-2   /* Small screens ≥640px */
-    md:text-xl md:px-6 md:py-3   /* Medium screens ≥768px */
-    lg:text-2xl lg:px-8 lg:py-4  /* Large screens ≥1024px */
+    
+    lg:text lg:px-3 lg:py-2  /* Large screens ≥1024px */
     mt-4 sm:mt-6                 /* Margin top responsive */
     bg-gray-200 font-bold text-black rounded-2xl 
     hover:bg-blue-700 hover:text-white

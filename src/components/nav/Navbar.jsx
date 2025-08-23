@@ -23,9 +23,9 @@ function Navbar() {
             <Link to="/service" className="text-gray-800  hover:text-blue-600">
               Service
             </Link>
-            <a href="#" className="text-gray-800 hover:text-blue-600">
+            <Link to="/work" className="text-gray-800  hover:text-blue-600">
               Works
-            </a>
+            </Link>
             <a href="#" className="text-gray-800 hover:text-blue-600">
               Our Story
             </a>
@@ -73,15 +73,21 @@ function Navbar() {
             >
               <FaTimes />
             </button>
-            <a href="#" className="block text-gray-700 hover:text-blue-600">
+            <Link to="/" className="block text-gray-700 hover:text-blue-600">
               Home
-            </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-600">
+            </Link>
+            <Link
+              to="/service"
+              className="block text-gray-700 hover:text-blue-600"
+            >
               Service
-            </a>
-            <a href="#" className="block text-gray-700 hover:text-blue-600">
+            </Link>
+            <Link
+              to="/work"
+              className="block text-gray-700 hover:text-blue-600"
+            >
               Works
-            </a>
+            </Link>
             <a href="#" className="block text-gray-700 hover:text-blue-600">
               Our Story
             </a>

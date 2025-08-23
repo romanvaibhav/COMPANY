@@ -55,35 +55,35 @@ function Howwe() {
           <div className="lg:w-[19vw] lg:h-[43vh] w-50 h-40 overflow-y-auto space-y-8 hide-scrollbar ">
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
               <img
-                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                className="lg:w-full w-45 lg:h-[45vh] h-43 h-[2]rounded-2xl"
                 src={frame1}
                 alt=""
               />
             </div>
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
               <img
-                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                className="lg:w-full w-45 lg:h-[45vh] h-43 h-[2]rounded-2xl"
                 src={frame2}
                 alt=""
               />
             </div>
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
               <img
-                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                className="lg:w-full w-45 lg:h-[45vh] h-43 h-[2]rounded-2xl"
                 src={frame3}
                 alt=""
               />
             </div>
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
               <img
-                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                className="lg:w-full w-45 lg:h-[45vh] h-43 h-[2]rounded-2xl"
                 src={frame4}
                 alt=""
               />
             </div>
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">
               <img
-                className="lg:w-full w-45 h-43 h-[2]rounded-2xl"
+                className="lg:w-full lg:h-[45vh] w-45 h-43 h-[2]rounded-2xl"
                 src={frame5}
                 alt=""
               />
