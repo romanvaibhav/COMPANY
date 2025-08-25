@@ -1,8 +1,8 @@
 export default function SnippitWhyWebBlocks() {
   return (
     <div className="flex w-[100vw] justify-center items-center lg:py-8">
-      <div className=" mt-[10vh] w-[87vw]  shadow-2xl shadow-gray-400 rounded-xl lg:p-6 text-center">
-        <p className="text-sm font-medium lg:text-lg lg:font-medium lg:text-gray-800 leading-relaxed gap-5">
+      <div className=" mt-[5vh] w-[87vw]  shadow-2xl shadow-gray-400 rounded-xl lg:p-6 text-center">
+        <p className="text-sm lg:w-[83vw] font-medium lg:text-[18px] lg:font-medium lg:text-gray-800 leading-relaxed gap-5 px-2 py-2">
           At Web Blocks, we build future-ready solutions that accelerate your
           growth. <br className="hidden lg:block" />
           From software engineering and cloud transformation to AI-driven

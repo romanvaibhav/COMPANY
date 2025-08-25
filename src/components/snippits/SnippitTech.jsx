@@ -143,20 +143,20 @@ export default function SnippitTech() {
         <h1 className="text-2xl lg:text-4xl font-bold">
           Technologies and Platforms We Work With
         </h1>
-        <p className="lg:w-[70rem] lg:text-[18px] mt-6 mb-4">
+        <p className="lg:w-[70rem]  mt-6 mb-4">
           Our team is proficient in a variety of programming languages,
           including but not limited to, Angular, ReactJS, Python, Java, and
           JavaScript. We also have expertise in mobile development, we are
           well-versed in iOS, Android, and cross-platform technologies like
           Flutter and React Native.
         </p>
-        <p className="lg:text-[18px] lg:w-[70rem] mb-4">
+        <p className=" lg:w-[70rem] mb-4">
           For cloud services, we work with AWS, Google Cloud, and Microsoft
           Azure, among others. We also specialize in emerging technologies like
           AI, Machine Learning, Blockchain, and IoT, enabling us to provide
           innovative solutions that meet the unique needs of our clients.{" "}
         </p>
-        <p className="lg:text-[18px] lg:w-[70rem]">
+        <p className=" lg:w-[70rem]">
           No matter your technological needs, we have the skills and experience
           to deliver high-quality, tailor-made solutions.
         </p>

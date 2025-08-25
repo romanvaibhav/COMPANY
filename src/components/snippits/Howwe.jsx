@@ -7,7 +7,7 @@ import frame5 from "../../assets/frame_1321317742-CFmQVlbd.webp";
 
 function Howwe() {
   return (
-    <div className="relative lg:w-[100vw] lg:h-[70vh] h-[55vh] bg-black overflow-hidden">
+    <div className="relative w-full  lg:h-[75vh]  h-[40vh] bg-black overflow-hidden">
       {/* <!-- Glowing moving background -->
       <div className=""></div>
       <div className=""></div>
@@ -16,7 +16,7 @@ function Howwe() {
       {/* <!-- Center fading text --> */}
       <div className=" glow3"></div>
 
-      <div className="flex flex-row justify-between">
+      <div className="w-full flex flex-row justify-between">
         <div className="ml-[5vw]">
           <div className="lg:mt-[8vh] mt-5 ">
             <h1 className="text-white font-bold tracking-[0.1em] text-2xl">
@@ -27,7 +27,7 @@ function Howwe() {
             </h1>
           </div>
           <div className="mt-[7vh] ">
-            <p className="w-[35vw]  font-semibold tracking-[0.1em] text lg:text-2xl text-white">
+            {/* <p className="w-[35vw]  font-semibold tracking-[0.0em] text lg:text-2xl text-white">
               Reach out to us if you want to talk Product Development!
             </p>
             <p className="font flex tracking-[0.1em] items-center gap-2 text-1xl text-white mt-[4vh]">
@@ -35,8 +35,8 @@ function Howwe() {
             </p>
             <p className="font tracking-[0.1em] flex items-center text-1xl gap-2 text-white mt-[1vh]">
               <FaPhone className="text-gray-300" /> +91 7385171681
-            </p>
-            <button className="relative text-white group flex  lg:text-2xl mt-[4vh] items-center gap-2">
+            </p> */}
+            <button className="relative text-white group flex  lg:text-2xl mt-[15vh] lg:mt-[35vh] items-center gap-2">
               <span className="relative">
                 Book a Call with our CEO
                 {/* Underline */}
@@ -50,7 +50,7 @@ function Howwe() {
             </button>
           </div>
         </div>
-        <div className="lg:mt-[15vh] lg:mr-[10vw] lg:w-[20vw] lg:h-[40vh] mt-40 w-60 h-40 bg-black flex  border-blue-400 justify-center items-center">
+        <div className="lg:mt-[15vh] lg:mr-[10vw] lg:w-[20vw] lg:h-[40vh] mt-25 w-60 h-40 bg-black flex  border-blue-400 justify-center items-center">
           {/* Scrollable container with hidden scrollbar */}
           <div className="lg:w-[19vw] lg:h-[43vh] w-50 h-40 overflow-y-auto space-y-8 hide-scrollbar ">
             <div className="lg:w-full lg:h-[40vh] h-40 w-45 border-4  bg-gray-400 rounded-2xl">

@@ -28,9 +28,9 @@ const Works = () => {
           </div>
 
           <div className="flex-1 flex flex-col justify-center items-start px-12">
-            <h3 className="text-2xl font-semibold mb-4">
+            {/* <h3 className="text-2xl font-semibold mb-4">
               Healthcare AI Portal
-            </h3>
+            </h3> */}
             <ul className="text-gray-300 w-60 list-disc list-inside space-y-2">
               <li>Interactive food & beverage menu</li>
               <li>Google Maps integration</li>
@@ -52,7 +52,7 @@ const Works = () => {
             />
           </div>
           <div className="flex-1 flex flex-col justify-center items-start px-12">
-            <h3 className="text-2xl font-semibold mb-4">Smart Ecommerce App</h3>
+            {/* <h3 className="text-2xl font-semibold mb-4">Smart Ecommerce App</h3> */}
             <ul className="text-gray-300 w-65 list-disc list-inside space-y-2">
               <li>Asset Management</li>
               <li>Product Label Design</li>
@@ -74,7 +74,7 @@ const Works = () => {
             />
           </div>
           <div className="flex-1">
-            <h3 className="text-2xl font-semibold mb-4">AgriTech Dashboard</h3>
+            {/* <h3 className="text-2xl font-semibold mb-4">AgriTech Dashboard</h3> */}
             <ul className="text-gray-300  w-65 list-disc list-inside space-y-2">
               <li>Responsive Design</li>
               <li>Shipping Setup</li>
@@ -95,7 +95,7 @@ const Works = () => {
             />
           </div>
           <div className="flex-1 flex flex-col justify-center items-start px-18">
-            <h3 className="text-2xl font-semibold mb-4">Dynamic UI</h3>
+            {/* <h3 className="text-2xl font-semibold mb-4">Dynamic UI</h3> */}
             <ul className="text-gray-300  w-65 list-disc list-inside space-y-2">
               <li>Dynamic UI</li>
               <li>Social Media Management</li>

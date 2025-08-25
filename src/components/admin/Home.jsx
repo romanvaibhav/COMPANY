@@ -14,20 +14,21 @@ function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
       <div
-        className="sm:h-[500px] md:h-[550px]  w-full border border-black"
+        className="h-[500px] md:h-[550px]  w-full border border-black"
         style={{
           backgroundImage: `url(${moving})`,
           backgroundSize: "100% 100%",
+
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex flex-col justify-center text-white items-start h-full w-full px-10">
+        <div className="flex flex-col justify-center lg:ml-[7vw] text-white items-start h-full w-full px-10">
           <div className=" md:mt-5 pb-4">
-            <p className="text-white text-2xl mt-5 lg:text-3xl font-bold sm:mt-20">
+            <p className="text-white text-2xl mt-5 lg:text-[5vh] font-bold sm:mt-20">
               Build Bold <br /> Lead the Future
             </p>
 
-            <p className="mt-6 text sm:text-3xl md:text-xl lg:text-xl text-gray-200">
+            <p className="mt-6  text-gray-200">
               Shape the future with us. We deliver seamless digital solutions —
               <br />
               from idea to launch, with security and scale built in. We handle
@@ -42,15 +43,7 @@ function Home() {
                   "_blank"
                 )
               }
-              className="
-    border 
-    text-sm px-3 py-1            /* Mobile (default) */
-    
-    lg:text lg:px-3 lg:py-2  /* Large screens ≥1024px */
-    mt-4 sm:mt-6                 /* Margin top responsive */
-    bg-gray-200 font-bold text-black rounded-2xl 
-    hover:bg-blue-700 hover:text-white
-  "
+              className="bg-blue-600 text-white px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-blue-800 "
             >
               Let's Connect
             </button>
@@ -60,54 +53,54 @@ function Home() {
 
       <div className=" mt-5">
         <div>
-          <h1 className="flex justify-center font-bold text-2xl lg:text-3xl">
+          <h1 className="flex justify-center font-bold text-2xl lg:text-2xl">
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="mt-10 w-[85rem] ml-[8vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-12">
-            <div className=" flex flex-row gap-[4vw]">
-              <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
+          <div className="mt-10 w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-23">
+            <div className=" flex flex-row gap-[6vw]">
+              <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Unified Tech Expertise
                 </p>
-                <p className="text-sm text-center mb-5">
+                <p className="text-sm text-center  mb-5">
                   One team. All major technologies. End-to-end execution
                 </p>
               </div>
-              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-[4vw] bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
+              <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Custom-Built for Your Vision
                 </p>
-                <p className="text-sm text-center mb-5">
+                <p className="text-sm text-center  mb-5">
                   No templates — just tailored, results-driven solutions.
                 </p>
               </div>
             </div>
-            <div className=" flex justify-center w-[83vw] mt-4 mb-4 lg:mt-0 lg:mb-0">
+            <div className=" hidden flex justify-center w-[83vw]  mb-4 lg:mt-0 lg:mb-0">
               <div className=" border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Scalable. Reliable. Ready for Tomorrow
                 </p>
-                <p className="text-sm text-center mb-5">
+                <p className="text-sm text-center  mb-5">
                   Built to grow with your business, not break with it.
                 </p>
               </div>
             </div>
 
-            <div className=" flex flex-row gap-[4vw]">
-              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-400 to-gray-500 transition-transform duration-300 transform hover:scale-105">
+            <div className=" flex flex-row mt-5 lg:mt-0 gap-[6vw]">
+              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Security at Every Layer
                 </p>
-                <p className="text-sm text-center mb-5">
+                <p className="text-sm text-center  mb-5">
                   From code to cloud — your data, protected.
                 </p>
               </div>
-              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-600 to-gray-600 transition-transform duration-300 transform hover:scale-105">
+              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl">
                   Innovation That Powers Results
                 </p>
-                <p className="text-sm text-center mb-5">
+                <p className="text-sm text-center  mb-5">
                   We don’t just build — we evolve, disrupt, and deliver.
                 </p>
               </div>
@@ -118,7 +111,7 @@ function Home() {
       <SnippitWhyWebBlocks />
 
       <div className="w-[85vw]">
-        <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-8 lg:w-[85rem] lg:ml-15">
+        <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-[2vh] lg:w-[85rem] lg:ml-15">
           <div className="relative w-[85vw] h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
@@ -131,10 +124,10 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-blue-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-30">
+              <h1 className="text-black lg:text-[18px] font-semibold mt-20 lg:font-bold lg:mt-25">
                 Product Engineering
               </h1>
-              <p className="text-gray-950  lg:mt-4">
+              <p className="text-gray-950   mt-4 lg:mt-4">
                 Next-gen product engineering with our powerful Product
                 Engineering services
               </p>
@@ -156,8 +149,8 @@ function Home() {
             ></div>
 
             {/* Gradient overlay div */}
-            <div className="absolute w-[85vw] inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold  lg:mt-30">
+            <div className="absolute w-[85vw] inset-0  bg-gradient-to-b from-gray-100 to-gray-100 opacity-70 pl-8">
+              <h1 className="text-black font-semibold mt-20 lg:font-bold  lg:mt-25">
                 SAAS App Development
               </h1>
               <p className="text-gray-950 mt-4">
@@ -185,10 +178,10 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-30">
+              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-25">
                 Cloud & DevOps Solutions
               </h1>
-              <p className="text-gray-950 mt-4">
+              <p className="text-gray-950   mt-4">
                 Empower businesses with our comprehensive Cloud & DevOps
                 services
               </p>
@@ -211,10 +204,10 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-30">
+              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-25">
                 Generative AI development
               </h1>
-              <p className="text-gray-950 mt-4">
+              <p className="text-gray-950  mt-4">
                 Let our expertise in Generative AI propel your ideas into
                 reality
               </p>
@@ -237,10 +230,10 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-30">
+              <h1 className="text-black font-semibold mt-10 lg:font-bold lg:mt-25">
                 Blockchain Intergration
               </h1>
-              <p className="text-gray-950 mt-4">
+              <p className="text-gray-950  mt-4">
                 Unlock decentralized potential with our end-to-end blockchain
                 services
               </p>

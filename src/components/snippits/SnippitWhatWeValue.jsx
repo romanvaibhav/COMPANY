@@ -3,7 +3,7 @@ import Ethics from "../../assets/ethics-honesty-integrity-respect-gears-260nw-25
 import connection from "../../assets/Rectangle 31-CaxH85gR.webp";
 export default function SnippitWhatWeValue() {
   return (
-    <div className=" w-[95vw] ml-[5vw] lg:w-[85rem] lg:ml-20 mt-10 pb-[9vh]">
+    <div className=" w-[95vw] ml-[5vw] lg:w-[85rem] lg:ml-20 mt-25 pb-[9vh]">
       <div>
         <h1 className="lg:text-4xl text-2xl font-bold flex justify-center">
           What we Value
@@ -13,7 +13,7 @@ export default function SnippitWhatWeValue() {
         <div className="flex flex-row ">
           <div>
             <img
-              className="lg:h-60 lg:w-[600px] h-40 w-180 rounded-md shadow-gray-400  shadow-md"
+              className="lg:h-60 lg:w-[600px] h-30 w-180 rounded-md shadow-gray-400  shadow-md"
               src={innovation}
               alt=""
             />
@@ -32,7 +32,7 @@ export default function SnippitWhatWeValue() {
         <div className="flex flex-row mt-5 lg:ml-5">
           <div>
             <img
-              className="h-40 w-180 lg:h-60 lg:w-[700px] rounded-md shadow-gray-400  shadow-md"
+              className="h-30 w-160 lg:h-60 lg:w-[700px] rounded-md shadow-gray-400  shadow-md"
               src={Ethics}
               alt=""
             />
@@ -50,7 +50,7 @@ export default function SnippitWhatWeValue() {
         <div className="flex flex-row mt-5 lg:ml-10">
           <div>
             <img
-              className="h-40 w-180 lg:h-60 lg:w-[800px] rounded-md shadow-gray-400  shadow-md"
+              className="h-30 w-160 lg:h-60 lg:w-[800px] rounded-md shadow-gray-400  shadow-md"
               src={connection}
               alt=""
             />

@@ -66,29 +66,39 @@ function Navbar() {
         </div>
         {/* Mobile menu */}
         {open && (
-          <div className="fixed top-0 right-0 h-full w-38 bg-white shadow-lg p-6 space-y-4 md:hidden z-50">
+          <div className="fixed top-0 right-0 h-full w-38 bg-white shadow-lg p-6 space-y-4 md:hidden z-50 ">
             <button
               className="self-end text-2xl text-gray-700"
               onClick={() => setOpen(false)}
             >
               <FaTimes />
             </button>
-            <Link to="/" className="block text-gray-700 hover:text-blue-600">
+            <Link
+              to="/"
+              className="block text-gray-700 hover:text-blue-600"
+              onClick={() => setOpen(false)}
+            >
               Home
             </Link>
             <Link
               to="/service"
               className="block text-gray-700 hover:text-blue-600"
+              onClick={() => setOpen(false)}
             >
               Service
             </Link>
             <Link
               to="/work"
               className="block text-gray-700 hover:text-blue-600"
+              onClick={() => setOpen(false)}
             >
               Works
             </Link>
-            <a href="#" className="block text-gray-700 hover:text-blue-600">
+            <a
+              href="#"
+              className="block text-gray-700 hover:text-blue-600"
+              onClick={() => setOpen(false)}
+            >
               Our Story
             </a>
           </div>

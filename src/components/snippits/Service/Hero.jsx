@@ -4,14 +4,14 @@ import image from "../../../assets/project-img.jpeg";
 import cover from "../../../assets/cover3.webp";
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-blue-100 to-white py-[10vh] lg:h-[75vh] h-120 px-[5vw] md:px-[10vw] flex flex-col md:flex-row items-center justify-between">
+    <section className="w-full relative bg-gradient-to-r from-blue-100 to-white py-[10vh] lg:h-[75vh] h-120 px-[5vw] md:px-[10vw] flex flex-col md:flex-row items-center justify-between">
       {/* Left */}
       <div className="md:w-[65%] space-y-[2vh]">
-        <p className="text-gray-500 uppercase text-sm font-semibold ">
+        <p className="text-gray-500 uppercase  text-sm font-semibold ">
           WEB BLOCKS PRESENTS
         </p>
 
-        <h1 className="lg:text-[4vh] font-bold leading-tight">
+        <h1 className="lg:text-[5vh] font-bold leading-tight">
           The Proof of work in <br /> the Portfolio
         </h1>
 
@@ -23,7 +23,7 @@ const Hero = () => {
           projects speak louder than words.
         </p>
 
-        <button className="bg-black text-white px-[2vw] py-[1vh] rounded-md text-[1.5vh] hover:bg-gray-800 ">
+        <button className="bg-black text-white px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-gray-800 ">
           Get in Touch
         </button>
       </div>

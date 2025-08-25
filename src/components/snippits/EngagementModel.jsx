@@ -4,17 +4,17 @@ function Engagement() {
   return (
     <div>
       <div className="w-[100vw] mt-[5vh] bg-gradient-to-br from-white to-blue-100">
-        <div className="flex justify-center items-center flex-col">
+        <div className=" ml-[1vw] flex justify-center items-center flex-col">
           <h1 className="lg:text-4xl text-2xl font-bold mt-[5vh]">
             Engagement Model
           </h1>
-          <div className="lg:flex   lg:mt-[6vh]">
-            <div className="lg:w-[28vw] lg:h-[44vh] lg:ml-[2vw] w-95 h-60 rounded-se-2xl shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
+          <div className="lg:flex  lg:mt-[6vh]">
+            <div className="lg:w-[28vw] lg:h-[44vh] lg:ml-[2vw] w-86 h-60 rounded-se-2xl shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
               <div className="mt-[5vh]">
                 <p className="lg:w-[24vw] pt-5 text-xl lg:text-2xl font-semibold pl-[4vw]">
                   Outsourced Product Development
                 </p>
-                <p className="lg:pl-[2vw] pl-4 mt-3">
+                <p className="lg:pl-[2vw]  pl-4 mt-3">
                   End-to-end AI product development from ideation to deployment
                   and maintenance.
                 </p>
@@ -25,7 +25,7 @@ function Engagement() {
                 </ul>
               </div>
             </div>
-            <div className="lg:w-[28vw] lg:h-[44vh] w-95 h-60 lg:ml-[2vw] rounded-se-2xl shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
+            <div className="lg:w-[28vw] lg:h-[44vh] w-86 h-60 lg:ml-[2vw] rounded-se-2xl shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
               <div className="mt-[5vh]">
                 <p className="lg:w-[17vw] pt-5 text-xl lg:text-2xl font-semibold pl-[4vw]">
                   Extended Engineering Team
@@ -41,11 +41,13 @@ function Engagement() {
                 </ul>
               </div>
             </div>
-            <div className="lg:w-[28vw] lg:h-[44vh] w-95 h-60 lg:ml-[2vw] rounded-se-2xl  shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
+            <div className="lg:w-[28vw] lg:h-[44vh] w-86 h-60 lg:ml-[2vw] rounded-se-2xl  shadow-2xl shadow-gray-400 hover:bg-gradient-to-br from-blue-100 to-purple-200">
               <div className="mt-[5vh]">
-                <p className="lg:w-[10vw] pt-5
+                <p
+                  className="lg:w-[10vw] pt-5
                 
-                text-xl lg:text-2xl font-semibold pl-[4vw]">
+                text-xl lg:text-2xl font-semibold pl-[4vw]"
+                >
                   Staff Augmentation
                 </p>
                 <p className="lg:pl-[2vw] pl-4 mt-3">
