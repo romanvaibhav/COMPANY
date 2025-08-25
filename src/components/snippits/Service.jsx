@@ -3,7 +3,7 @@ const Services = () => {
   return (
     <div
       className="
-    w-[full] h-[60vh] md:h[89vh] lg:h-[89vh] text-white 
+    w-[full] h-[70vh] lg:h-[89vh] text-white 
     bg-black 
     lg:bg-white    
     md:bg-white       /* Default black for small screens */
