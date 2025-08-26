@@ -102,19 +102,28 @@ function Footer() {
             </div>
 
             <div className="text-[17px] font-semibold my-[5px] leading-[1.6] list-none p-0">
-              <p className="lg:text-[15px] lg:font-bold ml-[-10px] mb-[10px] flex items-center gap-2">
+              <a
+                href="mailto:hr@webblocks.in"
+                className="lg:text-[15px] lg:font-bold ml-[-10px] mb-[10px] flex items-center gap-2"
+              >
                 <FaEnvelope className="text-gray-300" /> hr@webblocks.in
-              </p>
+              </a>
 
-              <p className="text-[15px] font-bold mb-6 lg:mb-[10px] ml-[-10px] flex items-center gap-2">
+              <a
+                href="tel:+917385171681"
+                className="text-[15px] font-bold mb-6 lg:mb-[10px] ml-[-10px] flex items-center gap-2"
+              >
                 <FaPhone className="text-gray-300" /> +91 7385171681
-              </p>
+              </a>
               {/* <!-- <h3><i class="fa fa-envelope"></i> :  Pune, India</h3> --> */}
             </div>
 
             <div className="ml-5  lg:mb-[5px] lg:pt-[25px]">
               <p className="text-[17px] font-bold mb-[10px]">Social Links</p>
-              <a href="#" className="mx-[5px] inline-block">
+              <a
+                href="https://www.linkedin.com/company/webblock/?viewAsMember=true"
+                className="mx-[5px] inline-block"
+              >
                 <FaLinkedin className="w-6 h-6 text-blue-500 hover:text-blue-700 transition-colors" />
               </a>
               <a href="#" className="mx-[5px] inline-block ml-6">
@@ -125,7 +134,15 @@ function Footer() {
               </a> */}
 
               <div className="lg:mt-4 ml-[-15px] mt-4">
-                <button className="bg-black text-white border-[1.5px] border-white px-[10px] py-[6px] mt-[5px] rounded-lg text-center text-[13px] cursor-pointer transition-colors duration-300 hover:bg-white hover:text-black">
+                <button
+                  className="bg-black text-white border-[1.5px] border-white px-[10px] py-[6px] mt-[5px] rounded-lg text-center text-[13px] cursor-pointer transition-colors duration-300 hover:bg-white hover:text-black"
+                  onClick={() =>
+                    window.open(
+                      "https://calendly.com/vaibhavroman2022/30min",
+                      "_blank"
+                    )
+                  }
+                >
                   schedule meeting
                 </button>
               </div>

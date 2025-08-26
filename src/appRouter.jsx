@@ -4,6 +4,8 @@ import Home from "../src/components/admin/Home";
 import Service from "../src/components/admin/Service";
 import Layout from "../src/components/nav/Layout";
 import Works from "../src/components/admin/Work";
+import AboutSection from "./components/admin/About";
+import Contact from "../src/components/admin/contact";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +23,14 @@ const appRouter = createBrowserRouter([
         path: "work",
         element: <Works />,
       },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path:"about",
+        element:<AboutSection/>
+      }
     ],
   },
 ]);

@@ -36,7 +36,15 @@ function Howwe() {
             <p className="font tracking-[0.1em] flex items-center text-1xl gap-2 text-white mt-[1vh]">
               <FaPhone className="text-gray-300" /> +91 7385171681
             </p> */}
-            <button className="relative text-white group flex  lg:text-2xl mt-[15vh] lg:mt-[35vh] items-center gap-2">
+            <button
+              className="relative text-white group flex  lg:text-2xl mt-[15vh] lg:mt-[35vh] items-center gap-2"
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/vaibhavroman2022/30min",
+                  "_blank"
+                )
+              }
+            >
               <span className="relative">
                 Book a Call with our CEO
                 {/* Underline */}

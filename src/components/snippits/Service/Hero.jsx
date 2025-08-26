@@ -2,7 +2,9 @@ import React from "react";
 import blocks from "../../../assets/project-blockchain.jpeg";
 import image from "../../../assets/project-img.jpeg";
 import cover from "../../../assets/cover3.webp";
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <section className="w-full relative bg-gradient-to-r from-blue-100 to-white py-[10vh] lg:h-[75vh] h-120 px-[5vw] md:px-[10vw] flex flex-col md:flex-row items-center justify-between">
       {/* Left */}
@@ -23,7 +25,10 @@ const Hero = () => {
           projects speak louder than words.
         </p>
 
-        <button className="bg-black text-white px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-gray-800 ">
+        <button
+          className="bg-black text-white px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-gray-800 "
+          onClick={() => navigate("/contact")}
+        >
           Get in Touch
         </button>
       </div>

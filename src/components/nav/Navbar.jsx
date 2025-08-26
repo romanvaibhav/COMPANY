@@ -26,13 +26,16 @@ function Navbar() {
             <Link to="/work" className="text-gray-800  hover:text-blue-600">
               Works
             </Link>
-            <a href="#" className="text-gray-800 hover:text-blue-600">
+            <Link to="/about" className="text-gray-800 hover:text-blue-600">
               Our Story
-            </a>
+            </Link>
           </div>
-          <button className=" border hidden md:flex bg-blue-600 text-white px-4 py-1 rounded-2xl hover:bg-blue-700 transition">
+          <Link
+            to="/contact"
+            className=" border hidden md:flex bg-blue-600 text-white px-4 py-1 rounded-2xl hover:bg-blue-700 transition"
+          >
             Contact Us
-          </button>
+          </Link>
           <button
             className="md:hidden text-gray-700 text-2xl"
             onClick={() => setOpen(!open)}

@@ -1,9 +1,14 @@
 import bgImage from "../../assets/Rectangle 3905-B9XFmqbZ.webp";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Services = () => {
+  const navigate = useNavigate();
+
   return (
     <div
       className="
-    w-[full] h-[70vh] lg:h-[89vh] text-white 
+    w-[full] h-[75vh] lg:h-[89vh] text-white 
     bg-black 
     lg:bg-white    
     md:bg-white       /* Default black for small screens */
@@ -30,7 +35,10 @@ const Services = () => {
               that solve real business challenges and deliver measurable
               results.
             </p>
-            <button className="bg-white text-black px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-gray-800 mt-6">
+            <button
+              className="bg-white text-black px-[2vw] py-[1vh] rounded-md text-[2vh] hover:bg-blue-600 hover:text-white mt-6"
+              onClick={() => navigate("/contact")}
+            >
               Get in Touch
             </button>
           </div>
