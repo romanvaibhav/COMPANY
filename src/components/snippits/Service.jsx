@@ -24,11 +24,11 @@ const Services = () => {
       <div>
         <div className="flex flex-col ">
           <div className="mt-[15vh] ml-[9vw]">
-            <p className="lg:text-[5vh] font-bold text-lg">
+            <p className="lg:text-4xl text-3xl font-bold ">
               Provide digital solutions <br />
               for your business
             </p>
-            <p className="w-80 mt-7">
+            <p className="w-80 mt-7 text-lg">
               Unlock the full potential of your business with tailored digital
               solutions that drive growth, efficiency, and innovation. At
               Netefie, we design, develop, and implement technology strategies
@@ -50,12 +50,12 @@ const Services = () => {
         "
           >
             <div className="text-black ">
-              <p className="lg:text-[5vh] font-bold">
+              <p className="lg:text-4xl font-bold">
                 AI First <br />
                 Development
                 <br /> For a Smart Future
               </p>
-              <p className="w-80 mt-7">
+              <p className="w-80 mt-7 text-lg">
                 Empowering business with cutting-edge AI solutions and
                 future-ready digital experiences
               </p>

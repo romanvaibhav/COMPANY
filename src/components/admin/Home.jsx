@@ -10,6 +10,8 @@ import SnippitWhyWebBlocks from "../snippits/snippitWhyWebBlocks";
 import SnippitWhatWeValue from "../snippits/SnippitWhatWeValue";
 import Engagement from "../snippits/EngagementModel";
 import Howwe from "../snippits/Howwe";
+import Trackrecord from "../snippits/Trackrecord";
+import ContactForm from "../snippits/Form";
 function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
@@ -24,11 +26,11 @@ function Home() {
       >
         <div className="flex flex-col justify-center lg:ml-[7vw] text-white items-start h-full w-full px-10">
           <div className=" md:mt-5 pb-4">
-            <p className="text-white text-2xl mt-5 lg:text-[5vh] font-bold sm:mt-20">
+            <p className="text-white text-3xl mt-5  lg:text-[5vh] font-bold sm:mt-20">
               Build Bold <br /> Lead the Future
             </p>
 
-            <p className="mt-6  text-gray-200">
+            <p className="mt-6 text-lg  text-gray-200">
               Shape the future with us. We deliver seamless digital solutions —
               <br />
               from idea to launch, with security and scale built in. We handle
@@ -57,8 +59,8 @@ function Home() {
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="mt-10 w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-23">
-            <div className=" flex flex-row gap-[6vw]">
+          <div className="mt-10 w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-15.5">
+            <div className=" flex flex-row gap-[4vw]">
               <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Unified Tech Expertise
@@ -76,7 +78,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className=" hidden flex justify-center w-[83vw]  mb-4 lg:mt-0 lg:mb-0">
+            {/* <div className=" hidden flex justify-center w-[83vw]  mb-4 lg:mt-0 lg:mb-0">
               <div className=" border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Scalable. Reliable. Ready for Tomorrow
@@ -85,9 +87,9 @@ function Home() {
                   Built to grow with your business, not break with it.
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            <div className=" flex flex-row mt-5 lg:mt-0 gap-[6vw]">
+            <div className=" flex flex-row mt-5 lg:mt-0 gap-[4.5vw]">
               <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Security at Every Layer
@@ -111,8 +113,8 @@ function Home() {
       <SnippitWhyWebBlocks />
 
       <div className="w-[85vw]">
-        <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-[2vh] lg:w-[85rem] lg:ml-15">
-          <div className="relative w-[85vw] h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
+        <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-[2vh] lg:w-[85rem] lg:ml-18">
+          <div className="relative w-[85vw] h-50 lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -131,14 +133,17 @@ function Home() {
                 Next-gen product engineering with our powerful Product
                 Engineering services
               </p>
-              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+              <Link
+                to="/productengii"
+                className="font-bold relative text-black hover:text-red-500 mt-4"
+              >
                 Learn More
                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
               </Link>
             </div>
           </div>
 
-          <div className="relative w-[85vw] mt-4 h-50 lg:w-[713px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className="relative w-[85vw] mt-4 h-50 lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -246,8 +251,10 @@ function Home() {
         </div>
       </div>
       <SnippitTech />
+      <Trackrecord />
       <Engagement />
       <Howwe />
+      <ContactForm />
     </div>
   );
 }

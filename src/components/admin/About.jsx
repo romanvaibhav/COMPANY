@@ -1,18 +1,22 @@
 import React from "react";
 import Blocks from "../../assets/bg5.jpg";
+import weblogo from "../../assets/Three_Interlocking_Cubes copy.png";
+import bg1 from "../../assets/bg1.jpg";
+import bg4 from "../../assets/bg4.jpg";
+import services from "../../assets/services.webp";
+import ContactForm from "../../components/snippits/Form";
 
 export default function AboutSection() {
   return (
     <div className="bg-white text-white overflow-x-hidden ">
-      <div className=" animated-gradient rounded-b-lg  rounded-r-full max-w-8xl mx-auto  py-18 ml-0">
-        <section className="flex flex-col md:flex-row items-center justify-between ml-59 px-15 py-14 max-w-7xl mx-auto bg-white rounded-3xl rounded-br-none ">
-          <div className=" md:w-[60%] space-y-8 text-center md:text-left ml-10">
+      <div className="animated-gradient rounded-b-lg rounded-r-full max-w-8xl mx-auto py-18 ml-0">
+        <section className="flex flex-col w-[90vw] pl-5  md:flex-row items-center justify-between lg:ml-59 px-15 py-14 max-w-7xl mx-auto bg-white rounded-3xl rounded-br-none ">
+          <div className=" md:w-[60%]  space-y-8 text-center md:text-left ml-10">
             <button className="text-blue-400 border border-blue-500 px-4 py-1 rounded-full font-medium">
-              About Us{" "}
+              About Us
             </button>
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-800">
-              {" "}
-              Web Blocks{" "}
+            <h1 className="text-4xl w-[80vw] md:text-5xl font-bold text-gray-800">
+              Web Blocks
             </h1>
             <p className="text-gray-600 text-lg leading-relaxed ">
               Your trusted partner for next-level digital transformation. At
@@ -25,13 +29,14 @@ export default function AboutSection() {
               Let’s discuss →
             </button>
           </div>
-
-          <div className="md:w-[40%]  flex justify-center mt-10 md:mt-0">
-            <img
-              src="/images/web-blocks-logo.jpg"
-              alt="Web-Blocks-Logo"
-              className="w-190 h-110 md:w-96 "
-            />
+          <div className="md:w-[40%] hidden lg:block">
+            <div className="md:w-[70%]  flex justify-center mt-10 md:mt-0">
+              <img
+                src={weblogo}
+                alt="Web-Blocks-Logo"
+                className="w-190 h-90 md:w-96 "
+              />
+            </div>
           </div>
         </section>
       </div>
@@ -54,7 +59,7 @@ export default function AboutSection() {
               <p className="text-gray-400">Years of Experience</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">50+</p>
+              <p className="text-3xl font-bold">30+</p>
               <p className="text-gray-400">Successful Projects</p>
             </div>
             <div>
@@ -62,7 +67,7 @@ export default function AboutSection() {
               <p className="text-gray-400">Client Satisfaction Rate</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">50+</p>
+              <p className="text-3xl font-bold">25+</p>
               <p className="text-gray-400">Clients Served</p>
             </div>
           </div>
@@ -124,9 +129,9 @@ export default function AboutSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 px-4 sm:px-6 lg:px-9">
+        <div className="grid grid-cols-1 ml-[-1.5vw] sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 px-3 sm:px-6 lg:px-9">
           {/* Value Card */}
-          <div className="bg-gray-400/10 rounded-2xl p-6 h-80 w-100 text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
+          <div className="bg-gray-400/10 rounded-2xl p-6 h-80 w-[90vw] lg:w-[24vw] text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
             <div className="w-14 h-14 mx-auto m-2 bg-orange-400 flex items-center justify-center rounded-full">
               <i className="fas fa-users text-white text-xl"></i>
             </div>
@@ -140,7 +145,7 @@ export default function AboutSection() {
             </p>
           </div>
 
-          <div className="bg-gray-400/10 rounded-2xl p-6 h-80 w-100 text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
+          <div className="bg-gray-400/10 rounded-2xl p-6 h-87 lg:h-80 w-[90vw] lg:w-[24vw] text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
             <div className="w-14 h-14 mx-auto mb-4 bg-orange-400 flex items-center justify-center rounded-full">
               <i className="fas fa-lightbulb text-white text-xl"></i>
             </div>
@@ -150,13 +155,13 @@ export default function AboutSection() {
               that our continuous effort of cutting-edge solutions and superior
               performance is achieved due to our ongoing thirst for knowledge
               and adaptability. Our team is set to push boundaries, create
-              groundbreaking solutions, and build new industry standards. All of
-              this while supporting an environment that encourages skills,
-              curiosity, and professional growth.
+              groundbreaking solutions. All of this while supporting an
+              environment that encourages skills, curiosity, and professional
+              growth.
             </p>
           </div>
 
-          <div className="bg-gray-400/10 rounded-2xl p-6 h-80 w-100 text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
+          <div className="bg-gray-400/10 rounded-2xl p-3 h-80 w-[90vw] lg:w-[24vw] text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
             <div className="w-14 h-14 mx-auto mb-4 bg-orange-400 flex items-center justify-center rounded-full">
               <i className="fas fa-handshake text-white text-xl"></i>
             </div>
@@ -172,7 +177,7 @@ export default function AboutSection() {
             </p>
           </div>
 
-          <div className="bg-gray-400/10 rounded-2xl p-6 h-80 w-100 text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
+          <div className="bg-gray-400/10 rounded-2xl p-3 h-80 lg:h-80 w-[90vw] lg:w-[24vw] text-center shadow-lg shadow-blue-500/30 transition-transform duration-300 hover:scale-105">
             <div className="w-14 h-14 mx-auto mb-4 bg-orange-400 flex items-center justify-center rounded-full">
               <i className="fas fa-shield-alt text-white text-xl"></i>
             </div>
@@ -204,18 +209,18 @@ export default function AboutSection() {
           <div>
             <div className="relative overflow-hidden rounded-lg shadow-lg group bg-white">
               <img
-                src="/images/bg1.jpg"
+                src={bg1}
                 alt="Home"
-                className="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-130"
+                className="lg:w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-130"
               />
             </div>
 
             <div>
               <a
                 href="#"
-                className="inline-block text-blue-900 font-semibold py-3 px-4 rounded-lg  transition duration-300"
+                className=" text-blue-900 flex justify-center font-semibold py-3 px-4 rounded-lg  transition duration-300"
               >
-                Home{" "}
+                Home
               </a>
             </div>
           </div>
@@ -224,7 +229,7 @@ export default function AboutSection() {
           <div>
             <div className="relative overflow-hidden rounded-lg shadow-lg group bg-white">
               <img
-                src="/images/services.webp"
+                src={services}
                 alt="sevices"
                 className="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-130"
               />
@@ -233,9 +238,9 @@ export default function AboutSection() {
             <div>
               <a
                 href="#"
-                className="inline-block  text-blue-900  font-semibold py-3 px-4 rounded-lg  transition  duration-300 "
+                className="flex justify-center  text-blue-900  font-semibold py-3 px-4 rounded-lg  transition  duration-300 "
               >
-                Services{" "}
+                Services
               </a>
             </div>
           </div>
@@ -244,7 +249,7 @@ export default function AboutSection() {
           <div>
             <div className="relative overflow-hidden rounded-lg shadow-lg group bg-white">
               <img
-                src="/images/bg4.jpeg"
+                src={bg4}
                 alt="Works"
                 className="w-full h-80  object-cover transform transition-transform duration-500 group-hover:scale-130"
               />
@@ -253,9 +258,9 @@ export default function AboutSection() {
             <div>
               <a
                 href="#"
-                className="inline-block  text-blue-900 font-semibold py-3 px-4 rounded-lg transition duration-300"
+                className="flex justify-center  text-blue-900 font-semibold py-3 px-4 rounded-lg transition duration-300"
               >
-                Works{" "}
+                Works
               </a>
             </div>
           </div>
@@ -272,7 +277,7 @@ export default function AboutSection() {
         </h1>
       </section>
 
-      <section className="bg-gray-900 border-b border-white text-white py-19  h-[400px]">
+      <section className="bg-gray-900 border-b border-white text-white py-19 h-auto  lg:h-[400px]">
         <div className="container max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16 gap-12">
           {/* Left Section */}
           <div className="w-full md:w-1/2 text-center md:text-left">
@@ -290,7 +295,6 @@ export default function AboutSection() {
 
           {/* Divider */}
           <div className="hidden md:block h-60 w-px bg-gray-300"></div>
-
           {/* Right Section */}
           <div className="w-full md:w-1/2  flex flex-col items-center md:items-start gap-4 md:pl-8">
             <h3 className="uppercase text-xl font-semibold mb-4">

@@ -138,61 +138,64 @@ export default function SnippitTech() {
   };
 
   return (
-    <div className="bg-white p-6 w-[90vw] ml-[8vw] mt-8 lg:ml-20 lg:w-[85rem] rounded-lg  h-full">
-      <div>
-        <h1 className="text-2xl lg:text-4xl font-bold">
-          Technologies and Platforms We Work With
-        </h1>
-        <p className="lg:w-[70rem]  mt-6 mb-4">
-          Our team is proficient in a variety of programming languages,
-          including but not limited to, Angular, ReactJS, Python, Java, and
-          JavaScript. We also have expertise in mobile development, we are
-          well-versed in iOS, Android, and cross-platform technologies like
-          Flutter and React Native.
-        </p>
-        <p className=" lg:w-[70rem] mb-4">
-          For cloud services, we work with AWS, Google Cloud, and Microsoft
-          Azure, among others. We also specialize in emerging technologies like
-          AI, Machine Learning, Blockchain, and IoT, enabling us to provide
-          innovative solutions that meet the unique needs of our clients.{" "}
-        </p>
-        <p className=" lg:w-[70rem]">
-          No matter your technological needs, we have the skills and experience
-          to deliver high-quality, tailor-made solutions.
-        </p>
-      </div>
+    <div className=" p-6 w-[90vw]  mt-8 lg:w-[85rem] rounded-lg  h-full">
+      <div className="ml-[8.4vw] ">
+        <div>
+          <h1 className="text-2xl lg:text-4xl font-bold">
+            Technologies and Platforms We Work With
+          </h1>
+          <p className="lg:w-[70rem]  mt-6 mb-4 text-lg">
+            Our team is proficient in a variety of programming languages,
+            including but not limited to, Angular, ReactJS, Python, Java, and
+            JavaScript. We also have expertise in mobile development, we are
+            well-versed in iOS, Android, and cross-platform technologies like
+            Flutter and React Native.
+          </p>
+          <p className=" lg:w-[70rem] mb-4 text-lg">
+            For cloud services, we work with AWS, Google Cloud, and Microsoft
+            Azure, among others. We also specialize in emerging technologies
+            like AI, Machine Learning, Blockchain, and IoT, enabling us to
+            provide innovative solutions that meet the unique needs of our
+            clients.{" "}
+          </p>
+          <p className=" lg:w-[70rem] text-lg">
+            No matter your technological needs, we have the skills and
+            experience to deliver high-quality, tailor-made solutions.
+          </p>
+        </div>
 
-      <div className="flex w-[90vw] flex-row text-sm lg:ml-[5px] lg:gap-7 ml-[-10vw] mt-[5vw]">
-        {Object.keys(techStack).map((category) => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`font-semibold p-2 w-[20vw] lg:w-40 transition-colors duration-200 border-2
+        <div className="flex w-[85vw] flex-row text-sm lg:ml-[5px] lg:gap-7 ml-[-10vw] mt-[5vw]">
+          {Object.keys(techStack).map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`font-semibold p-2 w-[20vw] lg:w-40 transition-colors duration-200 border-2
     ${
       selectedCategory === category
         ? "text-black border-b-2 border-gray-500"
         : "text-gray-600 border-b-2 border-transparent hover:border-gray-300"
     }`}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
-
-      {/* Display selected category */}
-      {selectedCategory && (
-        <div className="mt-6 grid grid-cols-2 gap-2 lg:grid lg:grid-cols-6 lg:gap-4">
-          {techStack[selectedCategory].map((tech) => (
-            <div
-              key={tech.name}
-              className="flex flex-col justify-center w-[35vw]  lg:w-[200px] items-center  p-2 rounded bg-gray-100 h-[20vh]"
             >
-              <div>{tech.icon}</div>
-              <span className="mt-4">{tech.name}</span>
-            </div>
+              {category}
+            </button>
           ))}
         </div>
-      )}
+
+        {/* Display selected category */}
+        {selectedCategory && (
+          <div className="mt-6 grid grid-cols-2 gap-2 lg:grid lg:grid-cols-6 lg:gap-4">
+            {techStack[selectedCategory].map((tech) => (
+              <div
+                key={tech.name}
+                className="flex flex-col justify-center w-[30vw]  lg:w-[150px] items-center  p-2 rounded bg-gray-100 h-[20vh]"
+              >
+                <div>{tech.icon}</div>
+                <span className="mt-4">{tech.name}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

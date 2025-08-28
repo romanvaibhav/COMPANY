@@ -5,7 +5,6 @@ import footerlogo from "../../assets/footerimage.jpg";
 function Footer() {
   return (
     <div>
-      <ContactForm />
       <footer className="bg-black text-white h-auto py-5">
         <div className="grid grid-cols-2 lg:flex lg:justify-between lg:flex-wrap w-full mx-auto px-5">
           {/* <!-- Info Section --> */}
