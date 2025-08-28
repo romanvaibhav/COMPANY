@@ -141,7 +141,7 @@ export default function SnippitTech() {
     <div className=" p-6 w-[90vw]  mt-8 lg:w-[85rem] rounded-lg  h-full">
       <div className="ml-[8.4vw] ">
         <div>
-          <h1 className="text-2xl lg:text-4xl font-bold">
+          <h1 className="text-3xl lg:text-4xl font-bold">
             Technologies and Platforms We Work With
           </h1>
           <p className="lg:w-[70rem]  mt-6 mb-4 text-lg">
@@ -169,7 +169,7 @@ export default function SnippitTech() {
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`font-semibold p-2 w-[20vw] lg:w-40 transition-colors duration-200 border-2
+              className={`font-semibold p-2 w-[20vw] ml-2 lg:ml-0 lg:w-40 transition-colors duration-200 border-2
     ${
       selectedCategory === category
         ? "text-black border-b-2 border-gray-500"

@@ -93,7 +93,7 @@ export default function ProductEngi() {
                 </p>
               </div>
             </div>
-            <div className="w-[70vw] h-auto lg:h-[26vh]  rounded-md ">
+            <div className="w-[70vw] lg:w-[37vw] h-auto lg:h-[26vh]  rounded-md ">
               <div className="py-4 px-2  rounded-md font-semibold">
                 <p>Product Support & Maintenance</p>
               </div>

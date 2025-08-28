@@ -10,8 +10,8 @@ export default function Collaboration() {
             <br /> Therefore, we keep it seamless and simple.
           </p>
         </div>
-        <div className=" grid grid-cols-2 gap-9 w-[76vw] mt-[6vh]">
-          <div className="w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
+        <div className=" grid lg:grid-cols-2 gap-9 w-[76vw] mt-[6vh]">
+          <div className="w-[80vw] lg:w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
             <div className="py-4 px-2 bg-gray-100 rounded-md font-semibold">
               <p>NDA for Confidentiality</p>
             </div>
@@ -25,7 +25,7 @@ export default function Collaboration() {
               </p>
             </div>
           </div>
-          <div className="w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
+          <div className="w-[80vw] lg:w-[37vw] h-[28vh] lg:h-[26vh] border-1 border-gray-500 rounded-md bg-white">
             <div className="py-4 px-2 bg-gray-100 rounded-md font-semibold">
               <p>Discussion with Technical Team</p>
             </div>
@@ -41,7 +41,7 @@ export default function Collaboration() {
             </div>
           </div>
 
-          <div className="w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
+          <div className="w-[80vw] lg:w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
             <div className="py-4 px-2 bg-gray-100 rounded-md font-semibold">
               <p>Meeting the Development Team</p>
             </div>
@@ -55,7 +55,7 @@ export default function Collaboration() {
               </p>
             </div>
           </div>
-          <div className="w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
+          <div className="w-[80vw] lg:w-[37vw] h-[26vh] border-1 border-gray-500 rounded-md bg-white">
             <div className="py-4 px-2 bg-gray-100 rounded-md font-semibold">
               <p>Initiating the Project</p>
             </div>

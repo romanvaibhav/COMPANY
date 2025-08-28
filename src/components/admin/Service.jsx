@@ -4,6 +4,7 @@ import ServicesweSection from "../snippits/SeriviceWeOffer";
 import Aiinte from "../snippits/AiInte";
 import Timeline from "../snippits/Step";
 import rec from "../../assets/Rectangle 3905-B9XFmqbZ.webp";
+import ContactForm from "../snippits/Form";
 export default function Service() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function Service() {
       <Timeline />
 
       <Howwe />
+      <ContactForm />
     </div>
   );
 }

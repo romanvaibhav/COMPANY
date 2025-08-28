@@ -315,6 +315,7 @@ export default function AboutSection() {
           </div>
         </div>
       </section>
+      <ContactForm />
     </div>
   );
 }
