@@ -7,6 +7,7 @@ import Works from "../src/components/admin/Work";
 import AboutSection from "./components/admin/About";
 import Contact from "../src/components/admin/contact";
 import ProductEngi from "../src/components/admin/Services/ProductEng";
+import Cloud from "../src/components/admin/Services/CloudandDev";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +36,10 @@ const appRouter = createBrowserRouter([
       {
         path: "productengii",
         element: <ProductEngi />,
+      },
+      {
+        path: "cloud",
+        element: <Cloud />,
       },
     ],
   },

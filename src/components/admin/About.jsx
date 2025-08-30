@@ -5,12 +5,13 @@ import bg1 from "../../assets/bg1.jpg";
 import bg4 from "../../assets/bg4.jpg";
 import services from "../../assets/services.webp";
 import ContactForm from "../../components/snippits/Form";
+import Trackrecord from "../snippits/Trackrecord";
 
 export default function AboutSection() {
   return (
     <div className="bg-white text-white overflow-x-hidden ">
-      <div className="animated-gradient rounded-b-lg rounded-r-full max-w-8xl mx-auto py-18 ml-0">
-        <section className="flex flex-col w-[90vw] pl-5  md:flex-row items-center justify-between lg:ml-59 px-15 py-14 max-w-7xl mx-auto bg-white rounded-3xl rounded-br-none ">
+      <div className="animated-gradient h-[100vh] rounded-b-lg rounded-r-full max-w-8xl mx-auto py-18 ml-0">
+        <section className="flex flex-col w-[90vw] pl-5  md:flex-row items-center justify-between mt-20 lg:ml-59 px-15 py-14 max-w-7xl mx-auto bg-white rounded-3xl rounded-br-none ">
           <div className=" md:w-[60%]  space-y-8 text-center md:text-left ml-10">
             <button className="text-blue-400 border border-blue-500 px-4 py-1 rounded-full font-medium">
               About Us
@@ -42,7 +43,7 @@ export default function AboutSection() {
       </div>
 
       {/* track record */}
-      <section className="bg-[#0b1120] text-white py-16 mt-16">
+      {/* <section className="bg-[#0b1120] text-white py-16 mt-16">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <p className="text-blue-300 font-medium mb-4">Our Track Record</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -72,7 +73,7 @@ export default function AboutSection() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="relative bg-gray-900 text-white py-20 px-6 md:px-16 mt-16">
         <div className="absolute inset-0">
@@ -91,17 +92,23 @@ export default function AboutSection() {
           </h2>
           <p className="text-lg md:text-xl leading-relaxed mb-6">
             Founded in 2021, <span className="font-semibold">Web-Blocks</span>{" "}
-            started as a software development partner for businesses across
-            multiple industries. With a passion for technology and innovation,
-            we have helped enterprises embrace digital transformation through
-            custom solutions, blockchain, and cloud integration.
+            began as a small freelance initiative, fueled by a passion for
+            technology and a commitment to delivering quality digital solutions.
+            Collaborating with clients across industries, we built expertise in
+            custom software development, blockchain, and cloud integration.
           </p>
           <p className="text-lg md:text-xl leading-relaxed mb-8">
-            Today, Web-Blocks serves clients globally, delivering cutting-edge
-            web and mobile applications, ensuring security, scalability, and
-            performance in every solution we build.
+            Over time, our dedication to excellence helped us earn a reputation
+            for reliability, innovation, and technical proficiency. This success
+            opened the door to new opportunities and broader collaborations.
           </p>
-
+          <p className="text-lg md:text-xl leading-relaxed mb-8">
+            By 2024, Web-Blocks transitioned into a hybrid model — operating as
+            both a service-based organization and a trusted freelance partner.
+            Today, we combine the flexibility of freelancing with the structure
+            of professional services, delivering secure, scalable, and
+            high-performance web and mobile applications.
+          </p>
           <a
             href="#"
             className="inline-block bg-blue-500/60 hover:bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
@@ -191,6 +198,7 @@ export default function AboutSection() {
           </div>
         </div>
       </section>
+      <Trackrecord />
 
       {/* explore */}
 

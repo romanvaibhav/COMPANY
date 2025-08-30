@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className="h-auto w-full overflow-hidden">
       <div
-        className="h-[500px] md:h-[550px]  w-full border border-black"
+        className="h-[500px] lg:h-[100vh]  w-full border border-black"
         style={{
           backgroundImage: `url(${moving})`,
           backgroundSize: "100% 100%",
@@ -26,7 +26,7 @@ function Home() {
       >
         <div className="flex flex-col justify-center lg:ml-[7vw] text-white items-start h-full w-full px-10">
           <div className=" md:mt-5 pb-4">
-            <p className="text-white text-3xl mt-5  lg:text-[5vh] font-bold sm:mt-20">
+            <p className="text-white text-3xl mt-5  lg:text-[6vh] font-bold sm:mt-20">
               Build Bold <br /> Lead the Future
             </p>
 
@@ -190,7 +190,10 @@ function Home() {
                 Empower businesses with our comprehensive Cloud & DevOps
                 services
               </p>
-              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+              <Link
+                to="/cloud"
+                className="font-bold relative text-black hover:text-red-500 mt-4"
+              >
                 Learn More
                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
               </Link>

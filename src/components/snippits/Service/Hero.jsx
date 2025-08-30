@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const navigate = useNavigate();
   return (
-    <section className="w-full relative bg-gradient-to-r from-blue-100 to-white py-[10vh] lg:h-[75vh] h-130 px-[5vw] md:px-[10vw] flex flex-col md:flex-row items-center justify-between">
+    <section className="w-full relative bg-gradient-to-r from-blue-100 to-white py-[10vh] lg:h-[100vh] h-130 px-[5vw] md:px-[10vw] flex flex-col md:flex-row items-center justify-between">
       {/* Left */}
       <div className="md:w-[65%] space-y-[2vh]">
         <p className="text-gray-500 uppercase  text-sm font-semibold ">

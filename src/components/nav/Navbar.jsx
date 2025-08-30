@@ -8,12 +8,12 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div className="max-w-7xl mx-auto px-4 py-0  flex items-center justify-between">
           {/* Left: Logo + Name */}
           <div className="flex items-center gap-x-2 text-xl font-bold">
-            <img src={cubelogo} className="h-16 w-16" alt="Company Logo" />
-            <h1 className="text-lg sm:text-xl">Web Blocks</h1>
+            <img src={cubelogo} className="h-20 w-20" alt="Company Logo" />
+            <h1 className="lg:text-3xl sm:text-xl">Web Blocks</h1>
           </div>
 
           <div className="hidden md:flex space-x-6 font-bold">
@@ -97,13 +97,13 @@ function Navbar() {
             >
               Works
             </Link>
-            <a
-              href="#"
+            <Link
+              to="/about"
               className="block text-gray-700 hover:text-blue-600"
               onClick={() => setOpen(false)}
             >
               Our Story
-            </a>
+            </Link>
           </div>
         )}
       </nav>
