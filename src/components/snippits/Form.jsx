@@ -12,7 +12,14 @@ function ContactForm() {
             Get into the Conversation
           </h2>
 
-          <form className="space-y-6">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            className="space-y-6"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+
             {/* First + Last Name */}
             <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
               <input

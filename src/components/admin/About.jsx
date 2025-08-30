@@ -86,7 +86,7 @@ export default function AboutSection() {
 
         {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
 
-        <div className="relative max-w-5xl mx-auto text-center md:text-left z-10">
+        <div className="relative max-w-5xl ml-[6vw] text-center md:text-left z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our Story<span className="text-blue-400">.</span>
           </h2>
@@ -123,7 +123,7 @@ export default function AboutSection() {
         id="values"
         className="relative wavy-bg text-gray-700 px-4 sm:px-8 lg:px-12 flex flex-col lg:flex-row justify-center gap-6 py-12 sm:py-16"
       >
-        <div className="max-w-7xl mx-auto mb-8 sm:mb-12 px-4 sm:px-7 text-center lg:text-left">
+        <div className="max-w-7xl ml-[2vw] mb-8 sm:mb-12 px-4 sm:px-7 text-center lg:text-left">
           <h3 className="text-orange-400 font-semibold text-lg mb-2">Values</h3>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold mb-4 sm:mb-6">
             Our Values:

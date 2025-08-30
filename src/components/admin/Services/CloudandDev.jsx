@@ -5,9 +5,13 @@ import Collaboration from "../../snippits/Collaboration";
 import CloudDevOpsSection from "../../snippits/BookCallCloud";
 import WhyChooseWebCloud from "../../snippits/WhyChooseWebCloud";
 import SnippitTech from "../../snippits/SnippitTech";
+import { useEffect } from "react";
 export default function Cloud() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <div className="bg-gradient-to-r from-orange-100 to-white">
+    <div>
       <Prod3 />
       <CloudService />
       <CloudCompApproch />

@@ -13,7 +13,7 @@ export default function ProcessOfProductEng() {
         </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-3 w-[60vw] h-auto lg:h-[80vh] lg:ml-[5vw]">
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[26vh] rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[auto] rounded-md ">
           <div className="py-0 px-2 ml-2 font-semibold rounded-md">
             <p>Idea Exploration and Rapid Prototyping</p>
           </div>
@@ -26,7 +26,7 @@ export default function ProcessOfProductEng() {
             </p>
           </div>
         </div>
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[26vh] rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[auto] rounded-md ">
           <div className="py-0 ml-2 px-2 font-semibold rounded-md">
             <p>Strategic Product Planning</p>
           </div>
@@ -39,7 +39,7 @@ export default function ProcessOfProductEng() {
             </p>
           </div>
         </div>
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[26vh]  rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[auto]  rounded-md ">
           <div className="py-0 px-2 font-semibold rounded-md">
             <p>Building a Minimum Viable Product (MVP)</p>
           </div>
@@ -53,7 +53,7 @@ export default function ProcessOfProductEng() {
             </p>
           </div>
         </div>
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[26vh]  rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[auto]  rounded-md ">
           <div className="py-0 px-2 font-semibold rounded-md">
             <p>Iterative Product Development</p>
           </div>
@@ -67,7 +67,7 @@ export default function ProcessOfProductEng() {
             </p>
           </div>
         </div>
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] mt-4 h-[26vh] rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] mt-4 h-[auto] rounded-md ">
           <div className="py-0 px-2 font-semibold rounded-md">
             <p>Product Maturity and Scalability</p>
           </div>
@@ -80,7 +80,7 @@ export default function ProcessOfProductEng() {
             </p>
           </div>
         </div>
-        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[26vh] mt-4  rounded-md ">
+        <div className="w-[75vw] mt-5 lg:mt-0 lg:w-[28vw] h-[auto] mt-4  rounded-md ">
           <div className="py-0 px-2 font-semibold rounded-md">
             <p>Continuous Product Innovation and Improvement</p>
           </div>

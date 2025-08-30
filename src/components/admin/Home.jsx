@@ -53,13 +53,13 @@ function Home() {
         </div>
       </div>
 
-      <div className=" mt-5">
+      <div className=" mt-[6vh]">
         <div>
-          <h1 className="flex justify-center font-bold text-2xl lg:text-2xl">
+          <h1 className="flex justify-center font-bold text-2xl lg:text-3xl">
             Why <span className="text-blue-600 ml-2">Web Blocks </span> ?
           </h1>
 
-          <div className="mt-10 w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-15.5">
+          <div className="mt-[3vw] w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-15.5">
             <div className=" flex flex-row gap-[4vw]">
               <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
@@ -114,7 +114,7 @@ function Home() {
 
       <div className="w-[85vw]">
         <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-[2vh] lg:w-[85rem] lg:ml-18">
-          <div className="relative w-[85vw] h-50 lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
+          <div className="relative w-[85vw] h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden ">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -126,7 +126,7 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-blue-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black lg:text-[18px] font-semibold mt-20 lg:font-bold lg:mt-25">
+              <h1 className="text-black lg:text-[18px] font-bold mt-20 lg:font-bold lg:mt-25">
                 Product Engineering
               </h1>
               <p className="text-gray-950   mt-4 lg:mt-4">
@@ -143,7 +143,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="relative w-[85vw] mt-4 h-50 lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className="relative w-[85vw] mt-4 h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -170,8 +170,8 @@ function Home() {
           </div>
         </div>
 
-        <div className=" flex justify-center ml-[8vw] flex-col w-[85vw] lg:flex-row lg:w-[85rem] lg:ml-15">
-          <div className="  mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+        <div className=" flex justify-center ml-[8vw] flex-col w-[85vw] lg:flex-row lg:w-[82.5vw] lg:ml-[8vw]">
+          <div className="  mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -183,7 +183,7 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-25">
+              <h1 className="text-black font-bold mt-20 lg:font-bold lg:mt-25">
                 Cloud & DevOps Solutions
               </h1>
               <p className="text-gray-950   mt-4">
@@ -200,7 +200,7 @@ function Home() {
             </div>
           </div>
 
-          <div className=" mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className=" mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -212,7 +212,7 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-20 lg:font-bold lg:mt-25">
+              <h1 className="text-black font-bold mt-20 lg:font-bold lg:mt-25">
                 Generative AI development
               </h1>
               <p className="text-gray-950  mt-4">
@@ -226,7 +226,7 @@ function Home() {
             </div>
           </div>
 
-          <div className=" mt-4 w-[85vw] h-50 relative lg:w-[464px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
+          <div className=" mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -238,7 +238,7 @@ function Home() {
 
             {/* Gradient overlay div */}
             <div className="absolute inset-0  bg-gradient-to-b from-gray-200 to-gray-100 opacity-70 pl-8">
-              <h1 className="text-black font-semibold mt-10 lg:font-bold lg:mt-25">
+              <h1 className="text-black font-bold mt-10 lg:font-bold lg:mt-25">
                 Blockchain Intergration
               </h1>
               <p className="text-gray-950  mt-4">
