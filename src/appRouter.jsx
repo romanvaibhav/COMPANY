@@ -8,6 +8,7 @@ import AboutSection from "./components/admin/About";
 import Contact from "../src/components/admin/contact";
 import ProductEngi from "../src/components/admin/Services/ProductEng";
 import Cloud from "../src/components/admin/Services/CloudandDev";
+import ThankYou from "../src/components/admin/ThankYou";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -40,6 +41,10 @@ const appRouter = createBrowserRouter([
       {
         path: "cloud",
         element: <Cloud />,
+      },
+      {
+        path: "thank-you",
+        element: <ThankYou />,
       },
     ],
   },
