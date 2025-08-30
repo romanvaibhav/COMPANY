@@ -32,6 +32,8 @@ function ContactForm() {
             method="POST"
             data-netlify="true"
             onSubmit={handleSubmit}
+            netlify
+            hidden
             className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact" />
