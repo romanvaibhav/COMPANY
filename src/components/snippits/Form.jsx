@@ -1,6 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import bgimage from "../../assets/bgimage.png";
 function ContactForm() {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    fetch("/", {
+      method: "POST",
+      body: formData,
+    })
+      .then(() => navigate("/thank-you"))
+      .catch((error) => alert(error));
+  };
   return (
     <div className="w-full flex justify-center items-center pt-14 pb-14">
       <div
@@ -16,7 +31,7 @@ function ContactForm() {
             name="contact"
             method="POST"
             data-netlify="true"
-            action="/thank-you"
+            onSubmit={handleSubmit}
             className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact" />

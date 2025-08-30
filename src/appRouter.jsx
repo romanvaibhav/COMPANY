@@ -43,7 +43,7 @@ const appRouter = createBrowserRouter([
         element: <Cloud />,
       },
       {
-        path: "thank-you",
+        path: "/thank-you",
         element: <ThankYou />,
       },
     ],
