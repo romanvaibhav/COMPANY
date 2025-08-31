@@ -41,10 +41,12 @@ function ContactForm() {
               <input
                 type="text"
                 placeholder="First Name"
+                name="First Name"
                 className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               />
               <input
                 type="text"
+                name="Last Name"
                 placeholder="Last Name"
                 className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               />
@@ -54,11 +56,13 @@ function ContactForm() {
             <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
               <input
                 type="email"
+                name="Email"
                 placeholder="Email"
                 className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               />
               <input
                 type="tel"
+                name="Phone"
                 placeholder="Phone No"
                 className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               />
@@ -69,6 +73,7 @@ function ContactForm() {
               <textarea
                 rows="2"
                 placeholder="Message"
+                name="Message"
                 className="w-full bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               ></textarea>
             </div>
@@ -77,6 +82,7 @@ function ContactForm() {
             <div className="text-center">
               <button
                 type="submit"
+                name="submit"
                 className="lg:w-full px-2 py-1  lg:px-6 lg:py-3 bg-black/70 border text- border-white rounded-lg text-white font-medium hover:bg-gradient-to-b from-black to-teal-900 transition  cursor-pointer"
               >
                 Send Message
