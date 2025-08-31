@@ -13,7 +13,12 @@ function ContactForm() {
       method: "POST",
       body: formData,
     })
-      .then(() => alert("Message sent!"))
+      .then(() => {
+        alert("Message sent successfully!");
+        e.target.reset();
+        // Optionally redirect
+        // navigate("/thank-you");
+      })
       .catch((error) => alert(error));
   };
   return (
