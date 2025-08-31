@@ -6,7 +6,7 @@ import { BsCloudsFill } from "react-icons/bs";
 
 export default function CloudService() {
   return (
-    <div className="ml-[10vw]">
+    <div className="ml-[10vw] mt-[12vh]">
       <div>
         <p className="text-4xl font-bold">Cloud and DevOps Services</p>
         <p className="w-[80vw] lg:w-[60vw] text-lg mt-[2vh] text-gray-700">

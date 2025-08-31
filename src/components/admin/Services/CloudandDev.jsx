@@ -6,6 +6,8 @@ import CloudDevOpsSection from "../../snippits/BookCallCloud";
 import WhyChooseWebCloud from "../../snippits/WhyChooseWebCloud";
 import SnippitTech from "../../snippits/SnippitTech";
 import { useEffect } from "react";
+import CloudLast from "../../snippits/Service/CloudLast";
+import Trackrecord from "../../snippits/Trackrecord";
 export default function Cloud() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,8 +20,9 @@ export default function Cloud() {
       <SnippitTech />
 
       <WhyChooseWebCloud />
-      <CloudDevOpsSection />
+      <Trackrecord />
       <Collaboration />
+      <CloudLast />
     </div>
   );
 }

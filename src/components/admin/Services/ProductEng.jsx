@@ -4,6 +4,7 @@ import SnippitTech from "../../snippits/SnippitTech";
 import Trackrecord from "../../snippits/Trackrecord";
 import ProcessOfProductEng from "../../snippits/ProcessOfProductEng";
 import { useEffect } from "react";
+import ProductLast from "../../snippits/Service/ProductLast";
 export default function ProductEngi() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -116,6 +117,7 @@ export default function ProductEngi() {
       <SnippitTech />
       <Trackrecord />
       <Collaboration />
+      <ProductLast />
     </div>
   );
 }

@@ -9,6 +9,9 @@ import Contact from "../src/components/admin/contact";
 import ProductEngi from "../src/components/admin/Services/ProductEng";
 import Cloud from "../src/components/admin/Services/CloudandDev";
 import ThankYou from "../src/components/admin/ThankYou";
+import AiPage from "./components/admin/Services/GenAi";
+import Blockchainpage from "../src/components/admin/Services/Blockchain";
+import SaasSection from "../src/components/admin/Services/Sass";
 const appRouter = createBrowserRouter([
   {
     path: "/",
@@ -41,6 +44,18 @@ const appRouter = createBrowserRouter([
       {
         path: "cloud",
         element: <Cloud />,
+      },
+      {
+        path: "gen-ai",
+        element: <AiPage />,
+      },
+      {
+        path: "blockchain",
+        element: <Blockchainpage />,
+      },
+      {
+        path: "sass",
+        element: <SaasSection />,
       },
       {
         path: "/thank-you",

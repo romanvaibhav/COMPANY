@@ -26,7 +26,7 @@ export default function WhyChooseWebCloud() {
         </p>
       </div>
       <div className=" grid lg:grid-cols-2 gap-0 w-[80vw] mt-[6vh]">
-        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  bg-orange-50  group hover:shadow-lg transition border-gray-200 rounded-md ">
+        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1    group hover:shadow-lg transition border-gray-200 rounded-md ">
           <div className="py-4 px-4  rounded-md font-semibold group-hover:text-orange-500">
             <p>
               {" "}
@@ -45,7 +45,7 @@ export default function WhyChooseWebCloud() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition bg-orange-50 border-gray-200 rounded-md ">
+        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition  border-gray-200 rounded-md ">
           <div className="py-4 px-4  rounded-md group-hover:text-orange-500 font-semibold">
             <p>
               <span>
@@ -63,7 +63,7 @@ export default function WhyChooseWebCloud() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition bg-orange-50 border-gray-200 rounded-md ">
+        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition  border-gray-200 rounded-md ">
           <div className="py-4 px-4  rounded-md group-hover:text-orange-500 font-semibold">
             <p>
               <span>
@@ -81,7 +81,7 @@ export default function WhyChooseWebCloud() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition bg-orange-50 border-gray-200 rounded-md ">
+        <div className="w-[80vw] lg:w-[40vw] h-[auto] border-1  group hover:shadow-lg transition  border-gray-200 rounded-md ">
           <div className="py-4 px-4  rounded-md group-hover:text-orange-500 font-semibold">
             <p>
               <span>

@@ -162,7 +162,10 @@ function Home() {
                 Transform your business with our exceptional SaaS Application
                 Development
               </p>
-              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+              <Link
+                to="sass"
+                className="font-bold relative text-black hover:text-red-500 mt-4"
+              >
                 Learn More
                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
               </Link>
@@ -219,7 +222,10 @@ function Home() {
                 Let our expertise in Generative AI propel your ideas into
                 reality
               </p>
-              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+              <Link
+                to="gen-ai"
+                className="font-bold relative text-black hover:text-red-500 mt-4"
+              >
                 Learn More
                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
               </Link>
@@ -245,7 +251,10 @@ function Home() {
                 Unlock decentralized potential with our end-to-end blockchain
                 services
               </p>
-              <Link className="font-bold relative text-black hover:text-red-500 mt-4">
+              <Link
+                to="blockchain"
+                className="font-bold relative text-black hover:text-red-500 mt-4"
+              >
                 Learn More
                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-red-500 scale-x-0 origin-left transition-transform duration-300 hover:scale-x-100"></span>
               </Link>
