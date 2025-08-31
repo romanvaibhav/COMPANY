@@ -31,7 +31,7 @@ function ContactForm() {
             name="contact v1"
             method="POST"
             data-netlify="true"
-            onSubmit={handleSubmit}
+            onSubmit="submit"
             className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact v1" />
