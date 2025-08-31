@@ -28,13 +28,13 @@ function ContactForm() {
           </h2>
 
           <form
-            name="contact v1"
+            name="contact-v1"
             method="POST"
             data-netlify="true"
-            onSubmit="submit"
+            onSubmit={handleSubmit}
             className="space-y-6"
           >
-            <input type="hidden" name="form-name" value="contact v1" />
+            <input type="hidden" name="form-name" value="contact-v1" />
 
             {/* First + Last Name */}
             <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
