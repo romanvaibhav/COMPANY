@@ -6,7 +6,11 @@ import Timeline from "../snippits/Step";
 import rec from "../../assets/Rectangle 3905-B9XFmqbZ.webp";
 import ContactForm from "../snippits/Form";
 import Trackrecord from "../snippits/Trackrecord";
+import { useEffect } from "react";
 export default function Service() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Services />

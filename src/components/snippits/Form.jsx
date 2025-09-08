@@ -1,11 +1,19 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useForm } from "react-hook-form";
 
 import bgimage from "../../assets/bgimage.png";
 function ContactForm() {
+  const {
+    register, // Register inputs
+    handleSubmit, // Handles form submission
+    reset, // Resets form values
+    formState: { errors }, // Form state, includes errors
+  } = useForm();
+
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
+  const onSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
 
@@ -21,13 +29,14 @@ function ContactForm() {
       })
       .catch((error) => alert(error));
   };
+
   return (
     <div className="w-full flex justify-center items-center pt-14 pb-14">
       <div
         className="flex justify-start w-[80vw] rounded-md items-center h-[500px] bg-cover bg-center px-8"
         style={{ backgroundImage: `url(${bgimage})` }} // Replace with your image
       >
-        <div className="bg-white/10 backdrop-blur-md p-8  h-95 w-70 rounded-2xl shadow-xl   lg:w-[45vw] ml-0 lg:ml-[15vw]">
+        <div className="bg-white/10 backdrop-blur-md p-8  h-100 w-70 rounded-2xl shadow-xl   lg:w-[45vw] ml-0 lg:ml-[15vw]">
           <h2 className="text-center text-base lg:font-bold lg:text-3xl mt-[-10px] mb-4 lg:mb-6 text-white">
             Get into the Conversation
           </h2>
@@ -36,51 +45,86 @@ function ContactForm() {
             name="contact-v1"
             method="POST"
             data-netlify="true"
-            onSubmit={handleSubmit}
+            onSubmit={handleSubmit(onSubmit)}
             className="space-y-6"
           >
             <input type="hidden" name="form-name" value="contact-v1" />
 
             {/* First + Last Name */}
             <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
-              <input
-                type="text"
-                placeholder="First Name"
-                name="First Name"
-                className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
-              />
-              <input
-                type="text"
-                name="Last Name"
-                placeholder="Last Name"
-                className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
-              />
+              <div className="h-10">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  name="First Name"
+                  {...register("name", { required: "First Name is required" })}
+                  className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
+                />
+                {errors.name && (
+                  <p className="text-red-500 min-h-[5px]">
+                    {errors.name.message}
+                  </p>
+                )}
+              </div>
+              <div className="h-10">
+                <input
+                  type="text"
+                  name="Last Name"
+                  {...register("LastName", {
+                    required: "Last Name is required",
+                  })}
+                  placeholder="Last Name"
+                  className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
+                />
+                {errors.LastName && (
+                  <p className="text-red-500 min-h-[2px]">
+                    {errors.LastName.message}
+                  </p>
+                )}
+              </div>
             </div>
 
             {/* Email + Phone */}
             <div className="grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6">
-              <input
-                type="email"
-                name="Email"
-                placeholder="Email"
-                className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
-              />
-              <input
-                type="tel"
-                name="Phone"
-                placeholder="Phone No"
-                className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
-              />
+              <div className="h-10">
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="Email"
+                  {...register("email", { required: "Email is required" })}
+                  className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
+                />
+                {errors.email && (
+                  <p className="text-red-500">{errors.email.message}</p>
+                )}
+              </div>
+
+              <div className="h-10">
+                <input
+                  type="tel"
+                  name="Phone"
+                  placeholder="Phone No"
+                  {...register("phone", { required: "Phone  No is required" })}
+                  className="lg:w-full w-25 bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
+                />
+                {errors.phone && (
+                  <p className="text-red-500">{errors.phone.message}</p>
+                )}
+              </div>
             </div>
 
             {/* Message */}
-            <div>
+            <div className="h-20">
               <textarea
                 rows="2"
                 placeholder="Message"
                 name="Message"
+                {...register("message", { required: "Message is required" })}
                 className="w-full bg-transparent border-b border-gray-300 focus:border-white focus:outline-none text-white placeholder-gray-300 py-2"
               ></textarea>
+              {errors.message && (
+                <p className="text-red-500">{errors.message.message}</p>
+              )}
             </div>
 
             {/* Submit Button */}

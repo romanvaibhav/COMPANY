@@ -17,12 +17,18 @@ export default function GenAiLast() {
             >
               Get a Free Quote
             </a>
-            <a
+            <button
+              onClick={() =>
+                window.open(
+                  "https://calendly.com/vaibhavroman2022/30min",
+                  "_blank"
+                )
+              }
               href="#schedule"
               className="bg-blue-500 text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-300 transition"
             >
               Schedule a Call
-            </a>
+            </button>
           </div>
         </div>
       </section>

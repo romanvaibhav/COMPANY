@@ -6,8 +6,11 @@ import bg4 from "../../assets/bg4.jpg";
 import services from "../../assets/services.webp";
 import ContactForm from "../../components/snippits/Form";
 import Trackrecord from "../snippits/Trackrecord";
-
+import { useEffect } from "react";
 export default function AboutSection() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-white text-white overflow-x-hidden ">
       <div className="animated-gradient h-[100vh] rounded-b-lg rounded-r-full max-w-8xl mx-auto py-18 ml-0">
