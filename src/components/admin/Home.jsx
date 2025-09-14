@@ -57,23 +57,23 @@ function Home() {
         </div>
       </div>
 
-      <div className=" mt-[15vh]">
+      <div className=" mt-[10vh]">
         <div>
           <h1 className="flex justify-center font-bold text-2xl lg:text-3xl">
-            Why <span className="text-sky-700 ml-2 mr-2">Web Blocks </span> ?
+            Why <span className="text-blue-600 ml-2 mr-2">Web Blocks </span> ?
           </h1>
 
           <div className="mt-[3vw] w-[85rem] ml-[5vw] lg:ml-20 lg:flex lg:flex-row lg:justify-center lg:gap-15.5">
             <div className=" flex flex-row gap-[4vw]">
               <div className=" rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-sky-200 to-white shadow-xl transition-transform duration-300 transform hover:scale-105">
-                <p className="font-bold text-center mt-6 text-black text-[20px] lg:text-2xl ">
+                <p className="font-semibold text-center mt-6 text-black text-[20px] lg:text-2xl ">
                   Unified Tech Expertise
                 </p>
                 <p className="text-sm text-gray-700 text-center  mb-7">
                   One team. All major technologies. End-to-end execution.
                 </p>
               </div>
-              <div className="border border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
+              <div className="border shadow-xl border-gray-300 rounded-2xl w-[40vw] h-60 lg:h-80 lg:w-64 flex flex-col justify-between p-4 bg-gradient-to-b from-sky-200 to-white transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Custom-Built for Your Vision
                 </p>
@@ -93,8 +93,8 @@ function Home() {
               </div>
             </div> */}
 
-            <div className=" flex flex-row mt-5 lg:mt-0 gap-[4.5vw]">
-              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
+            <div className=" flex flex-row mt-5 lg:mt-0 gap-[4.5vw] ">
+              <div className="border shadow-xl border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-sky-200 to-white transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl ">
                   Security at Every Layer
                 </p>
@@ -102,7 +102,7 @@ function Home() {
                   From code to cloud — your data, protected.
                 </p>
               </div>
-              <div className="border border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-blue-300 to-gray-300 transition-transform duration-300 transform hover:scale-105">
+              <div className="border shadow-xl border-gray-300 h-60 w-[40vw] lg:h-80 lg:w-64 rounded-2xl flex flex-col justify-between p-4 bg-gradient-to-b from-sky-200 to-white transition-transform duration-300 transform hover:scale-105">
                 <p className="font-semibold text-center text-[20px] lg:text-2xl">
                   Innovation That Powers Results
                 </p>
@@ -118,7 +118,7 @@ function Home() {
 
       <div className="w-[85vw]">
         <div className="flex justify-center ml-[8vw] flex-col lg:flex-row mt-[2vh] lg:w-[85rem] lg:ml-18">
-          <div className="relative w-[85vw] h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-500">
+          <div className="relative w-[85vw] h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-400">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -147,7 +147,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="relative w-[85vw] mt-4 h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-500">
+          <div className="relative w-[85vw] mt-4 h-[35vh] lg:w-[600px] lg:h-60 lg:ml-8 lg:mt-10 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-400">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -178,7 +178,7 @@ function Home() {
         </div>
 
         <div className=" flex justify-center ml-[8vw] flex-col w-[85vw] lg:flex-row lg:w-[82.5vw] lg:ml-[8vw]">
-          <div className="  mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-500">
+          <div className="  mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-400">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
@@ -207,7 +207,7 @@ function Home() {
             </div>
           </div>
 
-          <div className=" mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-500">
+          <div className=" mt-4 w-[85vw] h-[35vh] relative lg:w-[400px] lg:h-60 lg:ml-8 lg:mt-0 lg:mb-10 rounded-2xl border border-gray-400 overflow-hidden transform transition duration-300 hover:scale-105 group hover:shadow-2xl hover:shadow-blue-400">
             {/* Background image div */}
             <div
               className="absolute inset-0 bg-center bg-no-repeat"
